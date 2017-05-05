@@ -272,7 +272,8 @@ tbody .btn-mini {
 .form-inline .form-group>select{
   padding: 6px 9px;
 }
-.team_pz .form-inline .form-group>label,.cjzbpz .form-inline .form-group>label,.gjgzpz .form-inline .form-group>label,.gjgzxq .form-inline .form-group>label{
+.team_pz .form-inline .form-group>label,.cjzbpz .form-inline .form-group>label,
+.gjgzpz .form-inline .form-group>label,.gjgzxq .form-inline .form-group>label,.gjlb  .form-inline .form-group>label{
   margin-left: 25px;
   height: 32px;
   background: #ddd;
@@ -305,8 +306,42 @@ tbody .btn-mini {
 .gjgzxq .form-inline .form-group>input{
   margin-left: -4px;
   vertical-align: top;
-  width: 346px;
+  width: 329px;
 }
 .gjgzxq .form-inline .form-group>label{
   width: 140px;
+}
+.gjlb .form-inline .form-group>label{
+  margin-left: 23px;
+}
+.gjlb .form-inline .form-group>input{
+  margin-left: -4px;
+  vertical-align: top;
+}
+.b15{
+  bottom: 15px;
+}
+.form-inline .form-group .w346{
+  width: 346px;
+}
+.form-inline .form-group .w261{
+  width: 261px;
+}
+.right{
+  right: 35px;
+}
+.form-inline .w289{
+  width:289px;
+}
+.form-inline .w232{
+   width: 232px;
+}
+.cjzbpz .form-inline .form-group>label{
+  margin-left: 22px;
+}
+.w348{
+  width: 348px;
+}
+.form-inline  .w250{
+  width: 250px;
 }
