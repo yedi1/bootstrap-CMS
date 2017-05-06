@@ -272,8 +272,8 @@ tbody .btn-mini {
 .form-inline .form-group>select{
   padding: 6px 9px;
 }
-.qsfxcx .form-inline .form-group>label,.team_pz .form-inline .form-group>label,.cjzbpz .form-inline .form-group>label,
-.gjgzpz .form-inline .form-group>label,.gjgzxq .form-inline .form-group>label,.gjlb  .form-inline .form-group>label{
+.qsfxcx .form-inline .form-group>label
+{
   margin-left: 25px;
   height: 32px;
   background: #ddd;
@@ -281,10 +281,7 @@ tbody .btn-mini {
   line-height: 35px;
   padding: 0 5px;
 }
-.cjzbpz .form-inline .form-group>input{
-  margin-left: -4px;
-  vertical-align: top;
-}
+
 .qsfxcx .form-inline .form-group>input{
   margin-left: -4px;height: 32px;
   vertical-align: top;
@@ -298,59 +295,38 @@ tbody .btn-mini {
 .form-inline .w236{
   width: 292px;
 }
-.team_pz .form-inline .form-group>input{
-  margin-left: -4px;
-  vertical-align: top;
-}
-.index9 .form-inline .form-group>input{
-  margin-left: -4px;
-  vertical-align: top;
-}
-.gjgzpz .form-inline .form-group>input{
-  margin-left: -4px;
-  vertical-align: top;
-}
-.gjgzxq .form-inline .form-group>input{
-  margin-left: -4px;
-  vertical-align: top;
-  width: 329px;
-}
+
+
+
+
 .gjgzxq .form-inline .form-group>label{
   width: 140px;
 }
-.gjlb .form-inline .form-group>label{
-  margin-left: 23px;
-}
-.gjlb .form-inline .form-group>input{
-  margin-left: -4px;
-  vertical-align: top;
-}
+
 .b15{
   bottom: 15px;
 }
 .form-inline .form-group .w346{
-  width: 346px;
+  width: 335px;
 }
 .form-inline .form-group .w261{
-  width: 261px;
+  width: 249px;
 }
 .right{
   right: 35px;
 }
 .form-inline .w289{
-  width:289px;
+  width:282px;
 }
 .form-inline .w232{
-   width: 232px;
+   width: 221px;
 }
-.cjzbpz .form-inline .form-group>label{
-  margin-left: 22px;
-}
+
 .w348{
-  width: 348px;
+  width: 336px;
 }
 .form-inline  .w250{
-  width: 250px;
+  width: 234px;
 }
 
 .fwqpzxxck{
@@ -449,7 +425,205 @@ tbody .btn-mini {
 
 
 
+.zcxq{
+  color:#333333;
+}
+.zcxq .form-group{
+  background-color: white;
+  border-bottom: solid 1px #eeeeee;
+  margin-left: 0;
+  margin-right: 0;
+}
+.zcxq .form-group input{
+  border: none;
+  background-color: white;
+}
 
+.zcxq .xq,.zcxq .cpxx,.zcxq .cwxx,.zcxq .ywxx{
+  position: relative;
+  margin-top: 80px;
+  background-color: white;
+  padding: 5px 15px;
+}
+.zcxq .cpxx,.zcxq .cwxx,.zcxq .ywxx{
+  margin-top: 45px;
+}
+.zcxq .xq:before{
+  content: "资产详请";
+  position: absolute;
+  top: -30px;
+  left: 0;
+}
+.zcxq .cpxx:before{
+  content: "产品信息";
+  position: absolute;
+  top: -30px;
+  left: 0;
+}
+.zcxq .cwxx:before{
+  content: "财务信息";
+  position: absolute;
+  top: -30px;
+  left: 0;
+}
+.zcxq .ywxx:before{
+  content: "运维信息";
+  position: absolute;
+  top: -30px;
+  left: 0;
+}
+.zcxq .xq table tr:first-child >td,
+.zcxq .cpxx table tr:first-child >td,
+.zcxq .cwxx table tr:first-child >td
+{
+  border: none;
+}
+.zcxq .ywxx table td{
+  border: none;
+}
+.zcxq .ywxx table tr:nth-child(2)>td{
+  border-top: 1px solid #ddd;
+}
+.zcxq .xq .form-group label{
+  min-width: 100px;
+  max-width: 120px;
+  text-align: right;
+}
+.zcxq .xq .form-group input{
+  max-width: 150px;
+  text-align: left;
+}
+.zcxq .xq .form-group:last-child{
+  border: none;
+}
+.zcxq table tr>td:nth-child(2n){
+  text-align: left;
+}
+.zcxq .return{
+  position: absolute;
+  right: 15px;
+  top: 22px;
+  background-color: #289f89;
+  width: 100px;
+  color: white;
+}
 
-
-
+.zcxx .search-condition .form-group>input{
+  width: 135px;
+}
+.zcxx .table>tbody>tr>td,
+.zcxx .table>tbody>tr>th,
+.zcxx .table>tfoot>tr>td,
+.zcxx .table>tfoot>tr>th,
+.zcxx .table>thead>tr>td,
+.zcxx .table>thead>tr>th{
+  padding: 0;
+}
+.ryxz .search-condition:before{
+  content: "人员新增:";
+  position: absolute;
+  top: -30px;
+  left: 0px;
+}
+.zcxx .search-condition .form-group>label{
+  width: 75px;
+}
+.zcxx .search-condition .form-group>select{
+  width: 115px;
+}
+.zcxx .search-condition .form-group>input{
+  width: 115px;
+}
+#zcxx .form-inline .form-group {
+  background-color: #e4e4e4;
+  height: 30px;
+  margin: 0 8px 15px 0;
+}
+#zcxx .form-inline .form-group label{
+  text-align: center;
+}
+#zcxx .form-inline .form-group>#exampleInputEmail1 {
+  width: 115px;
+}
+#zcxx .form-inline .form-group>select {
+  float: right;
+  min-width: 105px;
+}
+#zcxx .form-inline .form-group>select, .form-inline .form-group>label, .form-inline .form-group>input {
+  height: 100%;
+  padding: 4px 8px;
+  border-radius: 0;
+}
+#zcxx th{
+  font-weight: 400;
+}
+.all_gd .form-inline .form-group {
+  background-color: #e4e4e4;
+  height: 30px;
+  margin: 0 8px 15px 0;
+}
+.all_gd .form-inline .form-group>select, .form-inline .form-group>label, .form-inline .form-group>input {
+  height: 100%;
+  padding: 4px 8px;
+  border-radius: 0;
+}
+.team_pz .form-inline .form-group {
+  background-color: #e4e4e4;
+  height: 30px;
+  margin: 0 8px 15px 0;
+}
+.team_pz .form-inline .form-group>select, .form-inline .form-group>label, .form-inline .form-group>input {
+  height: 100%;
+  padding: 4px 8px;
+  border-radius: 0;
+}
+.index9 .form-inline .form-group {
+  background-color: #e4e4e4;
+  height: 30px;
+  margin: 0 8px 15px 0;
+}
+.index9 .form-inline .form-group>select, .form-inline .form-group>label, .form-inline .form-group>input {
+  height: 100%;
+  padding: 4px 8px;
+  border-radius: 0;
+}
+.cjzbpz .form-inline .form-group {
+  background-color: #e4e4e4;
+  height: 30px;
+  margin: 0 8px 15px 0;
+}
+.cjzbpz .form-inline .form-group>select, .form-inline .form-group>label, .form-inline .form-group>input {
+  height: 100%;
+  padding: 4px 8px;
+  border-radius: 0;
+}
+.gjgzpz .form-inline .form-group {
+  background-color: #e4e4e4;
+  height: 30px;
+  margin: 0 8px 15px 0;
+}
+.gjgzpz .form-inline .form-group>select, .form-inline .form-group>label, .form-inline .form-group>input {
+  height: 100%;
+  padding: 4px 8px;
+  border-radius: 0;
+}
+.gjgzxq .form-inline .form-group {
+  background-color: #e4e4e4;
+  height: 30px;
+  margin: 0 8px 15px 0;
+}
+.gjgzxq .form-inline .form-group>select, .form-inline .form-group>label, .form-inline .form-group>input {
+  height: 100%;
+  padding: 4px 8px;
+  border-radius: 0;
+}
+.gjlb .form-inline .form-group {
+  background-color: #e4e4e4;
+  height: 30px;
+  margin: 0 8px 15px 0;
+}
+.gjlb .form-inline .form-group>select, .form-inline .form-group>label, .form-inline .form-group>input {
+  height: 100%;
+  padding: 4px 8px;
+  border-radius: 0;
+}

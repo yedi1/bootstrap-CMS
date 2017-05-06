@@ -449,13 +449,7 @@ margin-top: 83px;
 .main_content8 {
   padding: 60px;    padding-bottom: 0;
 }
-.index9 .form-inline .form-group label{
-  background: #e4e4e4;
-  height: 32px;
-  line-height: 32px;
-  vertical-align: top;
-  padding: 0px 10px;
-}
+
 .main_content1 label{
   background: #e4e4e4;
   height: 34px;
@@ -890,7 +884,7 @@ label {
 }
 
 .form-inline .w348 {
-    width: 348px;
+    width: 336px;
 }
 
 .w50 {
@@ -978,14 +972,14 @@ label {
     margin: 80px 60px 0 60px;
     overflow: hidden;
 }
-.all_gd .form-inline .form-group>label{
-    margin-left: 25px;
-    height: 32px;
-    background: #ddd;
-    text-align: center;
-    line-height: 35px;
-    padding: 0 5px;!important;
-}
+/*.all_gd .form-inline .form-group>label{*/
+    /*margin-left: 25px;*/
+    /*height: 32px;*/
+    /*background: #ddd;*/
+    /*text-align: center;*/
+    /*line-height: 35px;*/
+    /*padding: 0 5px;!important;*/
+/*}*/
 .form-inline .all_resource{
     position: absolute;
     top:30px;
