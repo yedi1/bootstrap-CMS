@@ -399,7 +399,7 @@ body{
 .fwqzylb-item .item-container .unstyled{
 	list-style-type: none;
 	color: #333333;
-	font-weight: 700;
+	/*font-weight: 700;*/
 	padding: 0;
 }
 .fwqzylb-item .item-footer{
@@ -1172,8 +1172,8 @@ label {
 .fwqzylb-item .item-container .unstyled{
     list-style-type: none;
     color: #333333;
-    font-size: 16px;
-    font-weight: 700;
+    /*font-size: 16px;*/
+    /*font-weight: 700;*/
     padding: 0;
 }
 .fwqzylb-item .item-footer{

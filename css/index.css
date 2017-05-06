@@ -272,7 +272,7 @@ tbody .btn-mini {
 .form-inline .form-group>select{
   padding: 6px 9px;
 }
-.team_pz .form-inline .form-group>label,.cjzbpz .form-inline .form-group>label,
+.qsfxcx .form-inline .form-group>label,.team_pz .form-inline .form-group>label,.cjzbpz .form-inline .form-group>label,
 .gjgzpz .form-inline .form-group>label,.gjgzxq .form-inline .form-group>label,.gjlb  .form-inline .form-group>label{
   margin-left: 25px;
   height: 32px;
@@ -284,6 +284,13 @@ tbody .btn-mini {
 .cjzbpz .form-inline .form-group>input{
   margin-left: -4px;
   vertical-align: top;
+}
+.qsfxcx .form-inline .form-group>input{
+  margin-left: -4px;height: 32px;
+  vertical-align: top;
+}
+.qsfxcx .form-group .datepicker-here{
+  width: 140px;
 }
 .form-inline .w292{
   width: 292px;
@@ -345,3 +352,104 @@ tbody .btn-mini {
 .form-inline  .w250{
   width: 250px;
 }
+
+.fwqpzxxck{
+  padding: 60px;
+}
+.fwqpzxxck th{
+  font-weight: 400;
+}
+.bgf{
+  background: #fff;
+}
+.tr{
+  text-align: right;
+}
+.tl{
+  text-align: left;
+}
+.pa10{
+  padding: 10px;
+}
+.table>tbody>tr  .b0{
+  border: 0;
+}
+.cpu0{
+  margin-left:38px;
+}
+.cpu0 div{
+  margin-top: 15px;
+}
+.bb1{
+  border-bottom: 1px solid #DDD;
+}
+.para>div{
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.para>div:last-child{
+  border-bottom: 0;
+}
+.pr{
+  position: relative;
+}
+.pab{
+  position: absolute;
+}
+
+#fwqpzxx{
+}
+#fwqpzxx .fwqzylb-item{
+  width: 302px;height: 247px;
+}
+#fwqpzxx .server {
+  right: 23px;
+}
+.unstyled .mt0{
+  margin-top: 0;
+}
+.pt10{
+  padding-top: 10px;
+}
+#fwqpzxx .fwqzylb-item .item-footer{
+  margin: 0;
+}
+.pa60{
+  padding: 55px;
+}
+
+
+.qsfxcx .active{
+  background: orange;
+}
+
+.qsfxcx>.col-xs-2 {
+  height: 100%;
+  width: 187px;
+  position: absolute;
+  left: 159px;
+  top: 84px;
+  padding: 0;
+}
+.qsfxcx>.col-xs-2>div{
+  height: 30px;line-height: 30px;
+  padding-left:70px;
+}
+.qsfxcx>.col-xs-10{
+  margin-left:  187px;
+  width: calc(100% - 187px);
+}
+
+.qsfxcx .form-inline .form-group>label{
+  margin-left:16px;
+}
+.qsfxcx .form-inline .form-group:first-child label{
+  margin-left:0;
+}
+
+
+
+
+
+
+
