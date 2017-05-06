@@ -884,16 +884,16 @@ label {
 }
 
 .form-inline .w348 {
-    width: 336px;
+    width: 277px;
 }
 
 .w50 {
-    width: 60px;
+    width: 100px;
     text-align: right;
 }
 
-.w333 {
-    width: 333px;
+.form-inline .w333 {
+    width: 264px;
 }
 
 .btn-group>.btn+.pa3 {
@@ -903,11 +903,11 @@ label {
 }
 
 .form-inline .w868 {
-    width: 868px;
+    width: 766px;
 }
 
 .form-inline .w868h138 {
-    width: 868px;
+    width: 766px;
     height: 138px;
 }
 
@@ -1044,9 +1044,7 @@ label {
 .table .btn{
     padding: 1px 6px;
 }
-.pagination{
-    margin: 12px 22px 12px 0;
-}
+
 
 /*运维资源配置*/
 .ywzypz{
@@ -1069,8 +1067,7 @@ label {
     height: 75px;
     background-color: #ffffff;
     border-radius: 10px;
-    /*padding: 10px 10px;*/
-    margin-right: 48px;
+    margin-right:23px;
     margin-bottom: 30px;
 }
 
@@ -1132,7 +1129,7 @@ label {
 }
 .fwqzylb .fwqzylb-search{
     position: absolute;
-    right: 0;
+    left: 627px;
     top:30px;
 }
 .fwqzylb .fwqzylb-search input,.fwqzylb .fwqzylb-search .btn-search{
@@ -1152,7 +1149,7 @@ label {
     margin-top: 100px;
 }
 .fwqzylb-list .fwqzylb-item{
-    width: 378px;
+    width: 329px;
     height: 258px;
     border: solid 15px #fff;
     background-color: inherit;
@@ -1179,7 +1176,7 @@ label {
     right: 45px;
 }
 .fwqzylb-item .item-footer img{
-    margin: 0 2px;
+    margin: 0 2px;width: 38px;
 }
 .unstyled li{
     margin: 10px 0;
