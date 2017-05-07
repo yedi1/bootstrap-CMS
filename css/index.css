@@ -752,7 +752,12 @@ tbody .btn-mini {
     height: 100%;
     padding: 4px 8px;
     border-radius: 0;
+    text-align: center;
 }
+.gjgzxq .form-inline .form-group > input{
+    width: 284px;
+}
+
 .fwqzyxg .form-inline .form-group {
     background-color: #e4e4e4;
     height: 30px;
@@ -1169,8 +1174,8 @@ em {
     background-color: white;
 }
 .ryxz .search-condition .form-group>label{
-    width: 140px;
-    text-align: right;
+    width: 77px;
+    /*text-align: right;*/
 }
 .ryxz .search-condition .form-group>input{
     width: 310px;
@@ -1199,7 +1204,7 @@ em {
 }
 .ryxz-content .checkbox{
     float: left;
-    margin: 0 45px 30px;
+    margin: 0 43px 30px;
 }
 .ryxz .chk_1 + label{
     border-radius: 100%;
