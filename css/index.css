@@ -352,7 +352,10 @@ tbody .btn-mini {
 .gjgzxq .form-inline .form-group > label {
     width: 140px;
 }
-
+.fwqzyxg .form-inline .form-group > label {
+    width: 104px;
+    text-align: center;
+}
 .b15 {
     bottom: 15px;
 }
@@ -746,6 +749,17 @@ tbody .btn-mini {
 }
 
 .gjgzxq .form-inline .form-group > select, .form-inline .form-group > label, .form-inline .form-group > input {
+    height: 100%;
+    padding: 4px 8px;
+    border-radius: 0;
+}
+.fwqzyxg .form-inline .form-group {
+    background-color: #e4e4e4;
+    height: 30px;
+    margin: 0 8px 15px 0;
+}
+
+.fwqzyxg .form-inline .form-group > select, .form-inline .form-group > label, .form-inline .form-group > input {
     height: 100%;
     padding: 4px 8px;
     border-radius: 0;
@@ -1144,4 +1158,97 @@ em {
 
 .checks.active {
     background: #289f89;
+}
+.ryxz .search-condition:before{
+    content: "人员新增:";
+    position: absolute;
+    top: -30px;
+    left: 0px;
+}
+.ryxz .search-condition .form-inline .form-group{
+    background-color: white;
+}
+.ryxz .search-condition .form-group>label{
+    width: 140px;
+    text-align: right;
+}
+.ryxz .search-condition .form-group>input{
+    width: 310px;
+}
+.ryxz #company2,.ryxz #company1{
+    width: 100px;
+}
+.ryxz #company0{
+    border: none;
+    background-color: white;
+}
+.ryxz #company2-lable{
+    width: 90px;
+}
+.ryxz .ryxz-content{
+    height: 183px;
+    background-color: #FFFFFF;
+    padding: 30px;
+    position: relative;
+}
+.ryxz .ryxz-content:before{
+    content: "角色:";
+    position: absolute;
+    top:-30px;
+    left:0;
+}
+.ryxz-content .checkbox{
+    float: left;
+    margin: 0 45px 30px;
+}
+.ryxz .chk_1 + label{
+    border-radius: 100%;
+    padding-left: 15px;
+    height: 17px;
+}
+.ryxz .ryxz-btn{
+    text-align: right;
+    margin-top: 35px;
+    color: #ffffff;
+}
+.ryxz .ryxz-btn button{
+    background-color: #289f89;
+    width: 100px;
+}
+#zyjk .two_order{
+    margin-left: 0;
+    width: initial;
+}
+#zyjk{
+    padding: 60px 80px;
+}
+#zyjk .col-xs-2{
+    width: 20%;
+}
+#zyjk .two_order li .items {
+    width: 138px;
+    height: 143px;
+    background: url(../img/cjzbpz/text2.png) no-repeat;
+    background-size: 100% 100%;
+    padding: 12px 28px 0;
+    margin-bottom: 10px;
+}
+#tjbb .hover>div:hover{
+    background: #2aabd2;
+}
+.fwqzyxg .search-condition{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.fwqzyxg .form-inline .form-control {
+    width: 173px;
+}
+
+.name .btn{
+    width: 76px;
+    height: 30px;
+    line-height: 19px;
+}
+.zcxq .table > tbody > tr > td{
+    text-align: left;
 }
