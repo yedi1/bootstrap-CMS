@@ -194,7 +194,8 @@ tbody .btn-mini {
 
 .gdcl .form-group {
     height: 38px;
-    margin: 15px 0 0;
+    /*line-height: 38px;*/
+    margin-bottom: 0;
 }
 
 .gdcl .form-group.hei_75 {
@@ -210,6 +211,7 @@ tbody .btn-mini {
     color: #333;
     vertical-align: middle;
     padding-right: 0 !important;
+    margin-top: 9px;
 }
 
 .gdcl .form-group .col-sm-1 {
@@ -237,9 +239,9 @@ tbody .btn-mini {
 }
 
 .gdcl .form-group .fujian img {
-    width: 70px;
-    height: 44px;
+    width: 64px;
     vertical-align: middle;
+    margin-top: 10px;
 }
 
 .gdcl .form-group .fujian i {
@@ -248,7 +250,7 @@ tbody .btn-mini {
     height: 26px;
     background: url("../img/cjzbpz/close.png") no-repeat;
     background-size: 100% auto;
-    vertical-align: middle;
+    vertical-align: text-top;
 }
 
 .gdcl .form-group .btn-c {
@@ -992,6 +994,7 @@ em {
 #gj_add .search-condition {
     margin-top: 0;
     padding: 0 30px;
+    padding-top: 20px;
 }
 
 #gj_add .search-condition .item_sel {
@@ -1268,4 +1271,13 @@ em {
     margin-bottom: 100px;
     margin-top: 48px;
     margin-left: 38px;
+}
+.mt51{
+    margin-top:44px;
+}
+.all_gd .table .btn{
+    padding: 0;
+}
+.gdcl .form-group .mt18{
+    margin-top: 15px;
 }

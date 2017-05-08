@@ -312,6 +312,10 @@
                         language: 'en'
                     });
 
+                    $('#gj_add .checks').click(function () {
+                        $(this).toggleClass('active')
+                    });
+
                     callback && callback();
                 },
                 error: function (error) {
@@ -331,7 +335,7 @@
                 getContent(href);
 
         });
-        getContent('all_gd.html');
+        getContent('gz_cl.html');
     })
 </script>
 </body>
