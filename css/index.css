@@ -1,4 +1,10 @@
 @charset "UTF-8";
+body{
+    font-family: "Microsoft YaHei";
+}
+button, input, select, textarea {
+    font-family: inherit;
+}
 .main_content .main_nr .box .list {
     background: #eeeeef;
     border: 1px solid #ddd;
