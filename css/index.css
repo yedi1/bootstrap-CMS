@@ -1284,3 +1284,206 @@ em {
 .sele .form-control{
   height: 30px;
 }
+
+/*2015-5-9*/
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+.zbBack {
+    position: relative;
+    margin-bottom: 20px;
+    height: 35px;
+}
+.zbBack .col-xs-2 {
+    padding-left: 0;
+    padding-top: 15px;
+}
+.zbBack .back {
+    top: 0;
+    right: 0;
+}
+.zb_check {
+    color: #666;
+    padding: 0 16px !important;
+    background: #fff;
+}
+.zb_check .form-group {
+    margin-bottom: 0;
+    line-height: 38px;
+    padding-left: 8px;
+}
+.zb_check .form-group label {
+    margin-bottom: 0;
+}
+.zb_check .form-group:not(:last-child) {
+    border-bottom: 1px solid #cdcdcd;
+}
+.zb_check .form-group .col-xs-3,
+.zb_check .form-group .col-xs-1,
+.zb_check .form-group .col-xs-2 {
+    padding-left: 0;
+    padding-right: 0;
+}
+.zb_check .form-group .col-xs-1 {
+    width: 100px;
+}
+.zbCheck {
+    height: 390px;
+    background: #fff;
+    padding: 0;
+    text-align: left !important;
+    margin-top: 30px;
+}
+.zbCheck .head {
+    background: #f3f3f3;
+    height: 50px;
+    padding-left: 22px;
+    line-height: 50px;
+}
+.zbCheck .head .bg_green {
+    width: 407px;
+    background: #289f89;
+    line-height: 35px;
+    display: inline-block;
+    border-radius: 4px;
+    padding-left: 32px;
+    position: relative;
+}
+.zbCheck .head .bg_green .nc {
+    color: #fff;
+    margin-right: 20px;
+}
+.zbCheck .head .bg_green .btn-group {
+    height: 26px;
+}
+.zbCheck .head .bg_green .qh {
+    position: absolute;
+    right: -1px;
+    top: 0;
+    text-align: center;
+    width: 92px;
+    height: 100%;
+    color: #666;
+    background: #fff;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.paddingT_20 {
+    padding-top: 20px !important;
+}
+
+.yibiaopan {
+    padding-bottom: 80px;
+}
+.yibiaopan .items_box {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.yibiaopan .items_box .boxs {
+    width: 486px;
+    height: 186px;
+    background: #fff;
+    float: left;
+    margin-right: 27px;
+    list-style: none;
+}
+.yibiaopan .items_box .boxs:last-child {
+    margin-right: 0;
+}
+.yibiaopan .items_box .boxs .head {
+    height: 37px;
+    line-height: 37px;
+    background: #f3f3f3;
+    padding-left: 25px;
+}
+.yibiaopan .items_box .boxs .head span {
+    margin-left: 5px;
+    color: #333;
+}
+.yibiaopan .items_box .boxs .itemsF {
+    padding: 10px 60px;
+    background: #fff;
+}
+.yibiaopan .items_box .boxs .itemsF ul {
+    float: left;
+}
+.yibiaopan .items_box .boxs .itemsF ul:last-child {
+    float: right;
+}
+.yibiaopan .items_box .boxs .itemsF ul li {
+    margin-bottom: 4px;
+}
+.yibiaopan .items_box .boxs .itemsF ul li:last-child {
+    margin-bottom: 0;
+}
+.yibiaopan .items_box .boxs .itemsF ul li img {
+    margin-right: 6px;
+}
+.yibiaopan .items_box .boxs .itemsF ul span {
+    display: inline-block;
+    vertical-align: middle;
+}
+.yibiaopan .items_box .boxs .itemsF .wid_c .c {
+    width: 70px;
+    text-align: right;
+}
+.yibiaopan .items_box .boxs .itemsF .wid_w .c {
+    width: 100px;
+    text-align: right;
+}
+.yibiaopan .zhibiao_item .ybp_bg {
+    width: 203px;
+    height: 54px;
+    background: url("../img/yibiaopan/bq.png") no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+    text-align: center;
+    line-height: 37px;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+.yibiaopan .zhibiao_item .zhibiao_box .boxCss {
+    height: 253px;
+    width: 321px;
+    background: #fff;
+    float: left;
+}
+.yibiaopan .zhibiao_item .zhibiao_box .boxCss.wid_boxCss {
+    width: 486px;
+}
+.yibiaopan .zhibiao_item .zhibiao_box .boxCss.wid_boxCss:not(:last-child) {
+    margin-right: 27px;
+}
+.yibiaopan .zhibiao_item .zhibiao_box .boxCss:not(:last-child) {
+    margin-right: 18px;
+}
+.yibiaopan .zhibiao_item .zhibiao_box .boxCss .bg_ccc {
+    color: #333;
+    height: 37px;
+    line-height: 37px;
+    background: #f3f3f3;
+    padding-left: 26px;
+    position: relative;
+}
+.yibiaopan .zhibiao_item .zhibiao_box .boxCss .bg_ccc.bg_psd {
+    padding-left: 15px;
+}
+.yibiaopan .zhibiao_item .zhibiao_box .boxCss .bg_ccc .nc {
+    margin-right: 10px;
+}
+.yibiaopan .zhibiao_item .zhibiao_box .boxCss .bg_ccc .qh {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 61px;
+    height: 100%;
+    text-align: center;
+    background: #e2e2e2;
+}
+
+
