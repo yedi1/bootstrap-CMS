@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/yedi1/bootstrap-CMS/issues"
   },
-  "homepage": "https://github.com/yedi1/bootstrap-CMS#readme"
+  "homepage": "https://github.com/yedi1/bootstrap-CMS#readme",
+  "devDependencies": {
+    "gulp-webserver": "^0.9.1",
+    "webserver": "^1.1.2"
+  }
 }
