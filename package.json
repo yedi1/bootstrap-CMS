@@ -1,0 +1,22 @@
+{
+  "name": "cms",
+  "version": "1.0.0",
+  "description": "cms",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yedi1/bootstrap-CMS.git"
+  },
+  "keywords": [
+    "cms"
+  ],
+  "author": "yedi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yedi1/bootstrap-CMS/issues"
+  },
+  "homepage": "https://github.com/yedi1/bootstrap-CMS#readme"
+}

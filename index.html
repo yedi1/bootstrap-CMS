@@ -315,6 +315,9 @@
                     $('#gj_add .checks').click(function () {
                         $(this).toggleClass('active')
                     });
+                    $('.dropdown-menu li').click(function () {
+                        $(this).parents('.btn-group').find('button:first').html($(this).text());
+                    });
 
                     callback && callback();
                 },
@@ -335,7 +338,7 @@
                 getContent(href);
 
         });
-        getContent('gz_cl.html');
+        getContent('tdxz.html');
     })
 </script>
 </body>
