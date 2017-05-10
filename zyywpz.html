@@ -3,7 +3,7 @@
             <form class=" form-inline form-config">
                 <div class="form-group">
                     <label class="" for="exampleInputName21">创建时间</label>
-                    <input type="text" class="form-control datepicker-here br0 w110" id="exampleInputName21" placeholder="Jane Doe">
+                    <input type="text" style="text-align: left;width: 120px" class="form-control datepicker-here br0 w110" id="exampleInputName21" placeholder="Jane Doe">
                 </div>
                 <div class="form-group ml29 ">
                     <label for="exampleInputName22">资源组名称</label>
@@ -13,7 +13,7 @@
                     <label for="exampleInputName2">运维负责人姓名</label>
                     <input type="text" class="form-control br0 w144" id="exampleInputName2" placeholder="Jane Doe">
                 </div>
-                <button type="submit" class="btn btn-primary1 ml29">查询</button>
+                <button type="submit" class="btn btn-primary1 ml29" style="    margin-top: -20px;">查询</button>
             </form>
         </div>
 
@@ -36,7 +36,8 @@
                     <td>公司名称</td>
                     <td>公司名称</td>
                     <td>公司名称</td>
-                    <td class="ml6"><span class="btn btn-default">分配</span><span class="btn btn-default">信息维护</span><span class="btn btn-default">删除</span><span class="btn btn-default">详情</span>
+                    <td class="ml6"><span class="btn btn-default">分配</span><span class="btn btn-default">信息维护</span>
+                        <span class="btn btn-default" data-toggle="modal" data-target=".bs-example-modal-sm">删除</span><span class="btn btn-default">详情</span>
                     </td>
                 </tr>
                 <tr>
@@ -45,7 +46,7 @@
                     <td>公司名称</td>
                     <td>公司名称</td>
                     <td>公司名称</td>
-                    <td class="ml6"><span class="btn btn-default">分配</span><span class="btn btn-default">信息维护</span><span class="btn btn-default">删除</span><span class="btn btn-default">详情</span>
+                    <td class="ml6"><span class="btn btn-default">分配</span><span class="btn btn-default">信息维护</span><span class="btn btn-default" data-toggle="modal" data-target=".bs-example-modal-sm">删除</span><span class="btn btn-default">详情</span>
                     </td>
                 </tr>
                 <tr>
@@ -54,7 +55,7 @@
                     <td>公司名称</td>
                     <td>公司名称</td>
                     <td>公司名称</td>
-                    <td class="ml6"><span class="btn btn-default">分配</span><span class="btn btn-default">信息维护</span><span class="btn btn-default">删除</span><span class="btn btn-default">详情</span>
+                    <td class="ml6"><span class="btn btn-default">分配</span><span class="btn btn-default">信息维护</span><span class="btn btn-default" data-toggle="modal" data-target=".bs-example-modal-sm">删除</span><span class="btn btn-default">详情</span>
                     </td>
                 </tr>
                 <tr>
@@ -63,7 +64,7 @@
                     <td>公司名称</td>
                     <td>公司名称</td>
                     <td>公司名称</td>
-                    <td class="ml6"><span class="btn btn-default">分配</span><span class="btn btn-default">信息维护</span><span class="btn btn-default">删除</span><span class="btn btn-default">详情</span>
+                    <td class="ml6"><span class="btn btn-default">分配</span><span class="btn btn-default">信息维护</span><span class="btn btn-default" data-toggle="modal" data-target=".bs-example-modal-sm">删除</span><span class="btn btn-default">详情</span>
                     </td>
                 </tr>
                 <tr>
@@ -72,7 +73,7 @@
                     <td>公司名称</td>
                     <td>公司名称</td>
                     <td>公司名称</td>
-                    <td class="ml6"><span class="btn btn-default">分配</span><span class="btn btn-default">信息维护</span><span class="btn btn-default">删除</span><span class="btn btn-default">详情</span>
+                    <td class="ml6"><span class="btn btn-default">分配</span><span class="btn btn-default">信息维护</span><span class="btn btn-default" data-toggle="modal" data-target=".bs-example-modal-sm">删除</span><span class="btn btn-default">详情</span>
                     </td>
                 </tr>
 
@@ -123,4 +124,19 @@
             </div>
         </div>
 
+
+    <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <h4 class="modal-title" id="mySmallModalLabel">确定删除?</h4>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                    <button type="button" class="btn btn-primary">确定</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

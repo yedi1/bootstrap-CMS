@@ -21,7 +21,7 @@ header>img {
 
 header .headright {
     float: right;
-    margin: 18px 50px 0 0;
+    margin: 10px 50px 0 0;
 }
 
 header .headright:after {
@@ -29,11 +29,27 @@ header .headright:after {
     display: block;
     clear: both;
 }
+header .headright div{
+    color: #fff;
+    font-size: 10px;
+}
+header .headright span{
+    display: inline-block;
+    width: 40px;
+    text-align: center;
+    margin-right: 22px;
+    cursor: pointer;
+}
+
+header .headright span:last-child{
+    width: 60px;
+}
 
 .headright img {
     width: 18px;
     height: 18px;
     margin: 0 10px;
+    margin-bottom: 4px;
 }
 
 .header-menu-panel {
@@ -93,11 +109,12 @@ header .headright:after {
     position: relative;
 }
 
-.search-condition .datepicker-here {
+.search-condition .form-group .datepicker-here {
     background: url("../img/rili.png") no-repeat;
     background-size: contain;
     background-position: right;
     background-color: #ffffff;
+    text-align: left;
 }
 
 .datepicker-here {
@@ -927,8 +944,22 @@ label {
     float: left;
     margin-left: 33px;
     margin-top: 20px;
-    background: url(../img/s.png) no-repeat 74px center #ffffff;
+
     padding-left: 13px;
+}
+.main_content7_elem a{
+    text-decoration: none;
+    color: #333;
+}
+.ximg{
+    display: inline-block;
+    width: 15px;
+    height:15px;
+    background: url(../img/s.png) no-repeat;
+    background-size: contain;
+    vertical-align: sub;
+    margin-left: 4px;
+    cursor: pointer;
 }
 
 .add111 {

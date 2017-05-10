@@ -54,6 +54,11 @@ textarea {
 .main_content .main_nr .box .list .proxy_btn li img {
     width: 36px;
     height: 36px;
+    cursor: pointer;
+}
+.main_content .main_nr .box .list .proxy_btn li img:hover{
+   width: 38px;
+    height:38px;
 }
 
 .search_tj {
@@ -270,7 +275,6 @@ tbody .btn-mini {
 .btn-c {
     width: 103px;
     height: 30px;
-    background: #e4e4e4;
     color: #666;
     line-height: 30px;
     padding: 0;
@@ -1587,4 +1591,13 @@ em {
     height: 100%;
     text-align: center;
     background: #e2e2e2;
+}
+.aaa .table>thead>tr>th{
+    font-weight: 400;
+}
+.main_content .aaa{
+    padding: 60px 105px;
+}
+.btnactive{
+    background: #adadad;
 }
