@@ -2,85 +2,75 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
-  <meta name="description" content="主页">
-  <meta name="evan" content="2017.4.22">
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
-  <link href="css/index.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/datepicker.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <meta name="description" content="主页">
+    <meta name="evan" content="2017.4.22">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/datepicker.css">
 </head>
 
 <body>
 <div class="container-fluid">
-
+    <div class="row left-menu">
+        <div data-title="资源配置" data-first-catalog="配置管理" data-second-catalog="资源配置" class="main_content">
+            <div class="res_pz">
+                <div class="first_order">
+                    <div class="items"><img src="img/cjzbpz/c.png" class="pic">
+                        <p><i>Porxy</i><i>2</i><i>台</i></p></div>
+                    <span>采集服务器</span></div>
+                <ul class="list-inline two_order">
+                    <li>
+                        <div class="items"><img src="img/cjzbpz/i7.png" class="pic">
+                            <p><i><img src="img/cjzbpz/microsoft.png"></i><i>2</i><i>台</i></p>
+                            <p><i><img src="img/cjzbpz/ii5.png"></i><i>2</i><i>台</i></p>
+                            <p><i><img src="img/cjzbpz/jx.png"></i><i>2</i><i>台</i></p></div>
+                        <span>监控资源组</span></li>
+                    <li class="two_child">
+                        <div class="items"><img src="img/cjzbpz/i9.png" class="pic">
+                            <p><i><img src="img/cjzbpz/i8.png"></i><i>2</i><i>台</i></p></div>
+                        <span>监控资源组</span></li>
+                    <li class="three_child">
+                        <div class="items"><img src="img/cjzbpz/jx2.png" class="pic">
+                            <p><i><img src="img/cjzbpz/jx3.png"></i><i>2</i><i>台</i></p>
+                            <p><i><img src="img/cjzbpz/i4.png"></i><i>2</i><i>台</i></p></div>
+                        <span>监控资源组</span></li>
+                    <li class="three_child">
+                        <div class="items"><img src="img/cjzbpz/jx2.png" class="pic">
+                            <p><i><img src="img/cjzbpz/jx3.png"></i><i>2</i><i>台</i></p>
+                            <p><i><img src="img/cjzbpz/i4.png"></i><i>2</i><i>台</i></p></div>
+                        <span>监控资源组</span></li>
+                    <li class="two_child">
+                        <div class="items"><img src="img/cjzbpz/z.png" class="pic">
+                            <p><i><img src="img/cjzbpz/i8.png"></i><i>2</i><i>台</i></p></div>
+                        <span>监控资源组</span></li>
+                    <li>
+                        <div class="items"><img src="img/cjzbpz/zd.png" class="pic"></div>
+                        <span>监控资源组</span></li>
+                    <li>
+                        <div class="items"></div>
+                        <span>监控资源组</span></li>
+                    <li>
+                        <div class="items"></div>
+                        <span>监控资源组</span></li>
+                    <li>
+                        <div class="items"></div>
+                        <span>监控资源组</span></li>
+                    <li class="last-child">
+                        <div class="items"><img src="img/cjzbpz/add_js.png" class="pic"></div>
+                        <span>监控资源组</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </div>
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/datepicker.js" charset="UTF-8"></script>
-<script>
-    $('.main_content').replaceWith(
-        ['    <div data-title="资源配置" data-first-catalog="配置管理" data-second-catalog="资源配置"  class="main_content">',
-            '      <div class="res_pz">',
-            '        <div class="first_order">',
-            '          <div class="items"><img src="img/cjzbpz/c.png" class="pic"/>',
-            '            <p><i>Porxy</i><i>2</i><i>台</i></p>',
-            '          </div><span>采集服务器</span>',
-            '        </div>',
-            '        <ul class="list-inline two_order">',
-            '          <li>',
-            '            <div class="items"><img src="img/cjzbpz/i7.png" class="pic"/>',
-            '              <p><i><img src="img/cjzbpz/microsoft.png"/></i><i>2</i><i>台</i></p>',
-            '              <p><i><img src="img/cjzbpz/ii5.png"/></i><i>2</i><i>台</i></p>',
-            '              <p><i><img src="img/cjzbpz/jx.png"/></i><i>2</i><i>台</i></p>',
-            '            </div><span>监控资源组</span>',
-            '          </li>',
-            '          <li class="two_child">',
-            '            <div class="items"><img src="img/cjzbpz/i9.png" class="pic"/>',
-            '              <p><i><img src="img/cjzbpz/i8.png"/></i><i>2</i><i>台</i></p>',
-            '            </div><span>监控资源组</span>',
-            '          </li>',
-            '          <li class="three_child">',
-            '            <div class="items"><img src="img/cjzbpz/jx2.png" class="pic"/>',
-            '              <p><i><img src="img/cjzbpz/jx3.png"/></i><i>2</i><i>台</i></p>',
-            '              <p><i><img src="img/cjzbpz/i4.png"/></i><i>2</i><i>台</i></p>',
-            '            </div><span>监控资源组</span>',
-            '          </li>',
-            '          <li class="three_child">',
-            '            <div class="items"><img src="img/cjzbpz/jx2.png" class="pic"/>',
-            '              <p><i><img src="img/cjzbpz/jx3.png"/></i><i>2</i><i>台</i></p>',
-            '              <p><i><img src="img/cjzbpz/i4.png"/></i><i>2</i><i>台</i></p>',
-            '            </div><span>监控资源组</span>',
-            '          </li>',
-            '          <li class="two_child">',
-            '            <div class="items"><img src="img/cjzbpz/z.png" class="pic"/>',
-            '              <p><i><img src="img/cjzbpz/i8.png"/></i><i>2</i><i>台</i></p>',
-            '            </div><span>监控资源组</span>',
-            '          </li>',
-            '          <li>',
-            '            <div class="items"><img src="img/cjzbpz/zd.png" class="pic"/></div><span>监控资源组</span>',
-            '          </li>',
-            '          <li>',
-            '            <div class="items"></div><span>监控资源组</span>',
-            '          </li>',
-            '          <li>',
-            '            <div class="items"></div><span>监控资源组</span>',
-            '          </li>',
-            '          <li>',
-            '            <div class="items"></div><span>监控资源组</span>',
-            '          </li>',
-            '          <li class="last-child">',
-            '            <div class="items"><img src="img/cjzbpz/add_js.png" class="pic"/></div><span>监控资源组</span>',
-            '          </li>',
-            '        </ul>',
-            '      </div>',
-            '    </div>',
-        ].join("")
-    )
-</script>
 <script src="js/index.js" charset="UTF-8"></script>
 </body>
 

@@ -16,153 +16,144 @@
 
 <body>
 <div class="container-fluid">
-
+    <div class="row left-menu">
+        <div class="row main_content index9" data-title="资源运维配置" data-first-catalog="配置管理" data-second-catalog="运维资源配置"
+             data-third-catalog="资源运维配置">
+            <div class="col-xs-12">
+                <form class=" form-inline form-config">
+                    <div class="form-group"><label class="" for="exampleInputName21">创建时间</label> <input type="text"
+                                                                                                         style="text-align: left;width: 120px"
+                                                                                                         class="form-control datepicker-here br0 w110"
+                                                                                                         id="exampleInputName21"
+                                                                                                         placeholder="Jane Doe">
+                    </div>
+                    <div class="form-group ml29 "><label for="exampleInputName22">资源组名称</label> <input type="text"
+                                                                                                       class="form-control br0 w144"
+                                                                                                       id="exampleInputName22"
+                                                                                                       placeholder="Jane Doe">
+                    </div>
+                    <div class="form-group ml29 "><label for="exampleInputName2">运维负责人姓名</label> <input type="text"
+                                                                                                        class="form-control br0 w144"
+                                                                                                        id="exampleInputName2"
+                                                                                                        placeholder="Jane Doe">
+                    </div>
+                    <button type="submit" class="btn btn-primary1 ml29" style="    margin-top: -20px;">查询</button>
+                </form>
+            </div>
+            <div class="col-xs-12 mt30 table-responsive">
+                <table class="table table-bordered table-hover">
+                    <thead>
+                    <tr>
+                        <th>资源编号</th>
+                        <th>公司名称</th>
+                        <th>资源组名称</th>
+                        <th>创建时间</th>
+                        <th>运维负责人</th>
+                        <th>操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>公司名称</td>
+                        <td>公司名称</td>
+                        <td>公司名称</td>
+                        <td>公司名称</td>
+                        <td>公司名称</td>
+                        <td class="ml6"><span class="btn btn-default">分配</span><span class="btn btn-default">信息维护</span>
+                            <span class="btn btn-default" data-toggle="modal"
+                                  data-target=".bs-example-modal-sm">删除</span><span class="btn btn-default">详情</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>公司名称</td>
+                        <td>公司名称</td>
+                        <td>公司名称</td>
+                        <td>公司名称</td>
+                        <td>公司名称</td>
+                        <td class="ml6"><span class="btn btn-default">分配</span><span class="btn btn-default">信息维护</span><span
+                                class="btn btn-default" data-toggle="modal" data-target=".bs-example-modal-sm">删除</span><span
+                                class="btn btn-default">详情</span></td>
+                    </tr>
+                    <tr>
+                        <td>公司名称</td>
+                        <td>公司名称</td>
+                        <td>公司名称</td>
+                        <td>公司名称</td>
+                        <td>公司名称</td>
+                        <td class="ml6"><span class="btn btn-default">分配</span><span class="btn btn-default">信息维护</span><span
+                                class="btn btn-default" data-toggle="modal" data-target=".bs-example-modal-sm">删除</span><span
+                                class="btn btn-default">详情</span></td>
+                    </tr>
+                    <tr>
+                        <td>公司名称</td>
+                        <td>公司名称</td>
+                        <td>公司名称</td>
+                        <td>公司名称</td>
+                        <td>公司名称</td>
+                        <td class="ml6"><span class="btn btn-default">分配</span><span class="btn btn-default">信息维护</span><span
+                                class="btn btn-default" data-toggle="modal" data-target=".bs-example-modal-sm">删除</span><span
+                                class="btn btn-default">详情</span></td>
+                    </tr>
+                    <tr>
+                        <td>公司名称</td>
+                        <td>公司名称</td>
+                        <td>公司名称</td>
+                        <td>公司名称</td>
+                        <td>公司名称</td>
+                        <td class="ml6"><span class="btn btn-default">分配</span><span class="btn btn-default">信息维护</span><span
+                                class="btn btn-default" data-toggle="modal" data-target=".bs-example-modal-sm">删除</span><span
+                                class="btn btn-default">详情</span></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-xs-12">
+                <div class="">
+                    <div class=" pages">显示第1到第15条记录, 总共732条记录,每页显示                        <!-- Single button -->
+                        <div class="btn-group dropdown">
+                            <button type="button" class="btn btn-default dropdown-toggle pd0" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false"> 15 <span class="caret"></span></button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                            </ul>
+                        </div>
+                        条记录
+                        <ul class="pagination pagination-sm pagination-right">
+                            <li><a href="#">&lt;&lt;</a></li>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li><a href="#">&gt;&gt;</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                <div class="modal-dialog modal-sm" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                    aria-hidden="true">×</span></button>
+                            <h4 class="modal-title" id="mySmallModalLabel">确定删除?</h4></div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                            <button type="button" class="btn btn-primary">确定</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/datepicker.js" charset="UTF-8"></script>
-<script>
-    $('.main_content').replaceWith(
-        ['        <div class="row main_content index9" data-title="资源运维配置" data-first-catalog="配置管理" data-second-catalog="运维资源配置" data-third-catalog="资源运维配置">',
-            '            <div class="col-xs-12">',
-            '                <form class=" form-inline form-config">',
-            '                    <div class="form-group">',
-            '                        <label class="" for="exampleInputName21">创建时间</label>',
-            '                        <input type="text" style="text-align: left;width: 120px" class="form-control datepicker-here br0 w110" id="exampleInputName21" placeholder="Jane Doe">',
-            '                    </div>',
-            '                    <div class="form-group ml29 ">',
-            '                        <label for="exampleInputName22">资源组名称</label>',
-            '                        <input type="text" class="form-control br0 w144" id="exampleInputName22" placeholder="Jane Doe">',
-            '                    </div>',
-            '                    <div class="form-group ml29 ">',
-            '                        <label for="exampleInputName2">运维负责人姓名</label>',
-            '                        <input type="text" class="form-control br0 w144" id="exampleInputName2" placeholder="Jane Doe">',
-            '                    </div>',
-            '                    <button type="submit" class="btn btn-primary1 ml29" style="    margin-top: -20px;">查询</button>',
-            '                </form>',
-            '            </div>',
-            '            <div class="col-xs-12 mt30 table-responsive">',
-            '                <table class="table table-bordered table-hover">',
-            '                    <thead>',
-            '                    <tr>',
-            '                        <th>资源编号</th>',
-            '                        <th>公司名称</th>',
-            '                        <th>资源组名称</th>',
-            '                        <th>创建时间</th>',
-            '                        <th>运维负责人</th>',
-            '                        <th>操作</th>',
-            '                    </tr>',
-            '                    </thead>',
-            '                    <tbody>',
-            '                    <tr>',
-            '                        <td>公司名称</td>',
-            '                        <td>公司名称</td>',
-            '                        <td>公司名称</td>',
-            '                        <td>公司名称</td>',
-            '                        <td>公司名称</td>',
-            '                        <td class="ml6"><span class="btn btn-default">分配</span><span class="btn btn-default">信息维护</span>',
-            '                            <span class="btn btn-default" data-toggle="modal" data-target=".bs-example-modal-sm">删除</span><span class="btn btn-default">详情</span>',
-            '                        </td>',
-            '                    </tr>',
-            '                    <tr>',
-            '                        <td>公司名称</td>',
-            '                        <td>公司名称</td>',
-            '                        <td>公司名称</td>',
-            '                        <td>公司名称</td>',
-            '                        <td>公司名称</td>',
-            '                        <td class="ml6"><span class="btn btn-default">分配</span><span class="btn btn-default">信息维护</span><span class="btn btn-default" data-toggle="modal" data-target=".bs-example-modal-sm">删除</span><span class="btn btn-default">详情</span>',
-            '                        </td>',
-            '                    </tr>',
-            '                    <tr>',
-            '                        <td>公司名称</td>',
-            '                        <td>公司名称</td>',
-            '                        <td>公司名称</td>',
-            '                        <td>公司名称</td>',
-            '                        <td>公司名称</td>',
-            '                        <td class="ml6"><span class="btn btn-default">分配</span><span class="btn btn-default">信息维护</span><span class="btn btn-default" data-toggle="modal" data-target=".bs-example-modal-sm">删除</span><span class="btn btn-default">详情</span>',
-            '                        </td>',
-            '                    </tr>',
-            '                    <tr>',
-            '                        <td>公司名称</td>',
-            '                        <td>公司名称</td>',
-            '                        <td>公司名称</td>',
-            '                        <td>公司名称</td>',
-            '                        <td>公司名称</td>',
-            '                        <td class="ml6"><span class="btn btn-default">分配</span><span class="btn btn-default">信息维护</span><span class="btn btn-default" data-toggle="modal" data-target=".bs-example-modal-sm">删除</span><span class="btn btn-default">详情</span>',
-            '                        </td>',
-            '                    </tr>',
-            '                    <tr>',
-            '                        <td>公司名称</td>',
-            '                        <td>公司名称</td>',
-            '                        <td>公司名称</td>',
-            '                        <td>公司名称</td>',
-            '                        <td>公司名称</td>',
-            '                        <td class="ml6"><span class="btn btn-default">分配</span><span class="btn btn-default">信息维护</span><span class="btn btn-default" data-toggle="modal" data-target=".bs-example-modal-sm">删除</span><span class="btn btn-default">详情</span>',
-            '                        </td>',
-            '                    </tr>',
-            '                    </tbody>',
-            '                </table>',
-            '            </div>',
-            '            <div class="col-xs-12">',
-            '                <div class="">',
-            '                    <div class=" pages">显示第1到第15条记录, 总共732条记录,每页显示',
-            '                        <!-- Single button -->',
-            '                        <div class="btn-group dropdown">',
-            '                            <button type="button" class="btn btn-default dropdown-toggle pd0" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">',
-            '                                15 <span class="caret"></span>',
-            '                            </button>',
-            '                            <ul class="dropdown-menu">',
-            '                                <li><a href="#">1</a></li>',
-            '                                <li><a href="#">2</a></li>',
-            '                                <li><a href="#">3</a></li>',
-            '                                <li><a href="#">4</a></li>',
-            '                                <li><a href="#">5</a></li>',
-            '                            </ul>',
-            '                        </div>条记录',
-            '                        <ul class="pagination pagination-sm pagination-right">',
-            '                            <li>',
-            '                                <a href="#">&lt;&lt;</a>',
-            '                            </li>',
-            '                            <li>',
-            '                                <a href="#">1</a>',
-            '                            </li>',
-            '                            <li>',
-            '                                <a href="#">2</a>',
-            '                            </li>',
-            '                            <li>',
-            '                                <a href="#">3</a>',
-            '                            </li>',
-            '                            <li>',
-            '                                <a href="#">4</a>',
-            '                            </li>',
-            '                            <li>',
-            '                                <a href="#">5</a>',
-            '                            </li>',
-            '                            <li>',
-            '                                <a href="#">&gt;&gt;</a>',
-            '                            </li>',
-            '                        </ul>',
-            '                    </div>',
-            '                </div>',
-            '            </div>',
-            '            <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">',
-            '                <div class="modal-dialog modal-sm" role="document">',
-            '                    <div class="modal-content">',
-            '                        <div class="modal-header">',
-            '                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>',
-            '                            <h4 class="modal-title" id="mySmallModalLabel">确定删除?</h4>',
-            '                        </div>',
-            '                        <div class="modal-footer">',
-            '                            <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>',
-            '                            <button type="button" class="btn btn-primary">确定</button>',
-            '                        </div>',
-            '                    </div>',
-            '                </div>',
-            '            </div>',
-            '        </div>',
-        ].join("")
-    )
-</script>
 <script src="js/index.js" charset="UTF-8"></script>
 </body>
 

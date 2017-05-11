@@ -111,6 +111,9 @@ tbody .btn-mini {
     height: 35px;
     text-align: center;
     padding: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 }
 
 .all_gd {
@@ -278,6 +281,7 @@ tbody .btn-mini {
     color: #666;
     line-height: 30px;
     padding: 0;
+    background: #e4e4e4;
 }
 
 .main_content .gdcl {
@@ -1598,6 +1602,19 @@ em {
 .main_content .aaa{
     padding: 60px 105px;
 }
+.fuwuqi_list .btnactive{
+    background: #27a088;!important;
+}
 .btnactive{
-    background: #adadad;
+    background: #27a088;!important;
+}
+.gdcl .table>thead:first-child>tr:first-child>th,.gdcl .table-bordered>tbody>tr>td{
+    font-weight: 400;
+    height: 30px;padding: 0;
+}
+.gdcl .table>thead:first-child>tr:first-child>th{
+    line-height: 30px;
+}
+.aaa .table-bordered>tbody>tr>td{
+    padding: 8px;
 }

@@ -2,89 +2,74 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
-  <meta name="description" content="主页">
-  <meta name="evan" content="2017.4.22">
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
-  <link href="css/index.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/datepicker.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <meta name="description" content="主页">
+    <meta name="evan" content="2017.4.22">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/datepicker.css">
 </head>
 
 <body>
 <div class="container-fluid">
-
+    <div class="row left-menu">
+        <div data-title="告警规则详情" data-first-catalog="配置管理" data-second-catalog="告警规则配置" data-third-catalog="告警规则详情"
+             class="main_content">
+            <div class="main_nr gj_del">
+                <button type="submit" class="btn btn-default back">返回</button>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="search-condition fisrt_item">
+                            <form role="form" class="form-inline">
+                                <div class="form-group"><label for="">公司名称</label> <input type="text" placeholder=""
+                                                                                          class="form-control"></div>
+                                <div class="form-group"><label for="">规则编号</label> <input type="text" placeholder=""
+                                                                                          class="form-control"></div>
+                                <div class="form-group"><label for="">资源组名称</label> <input type="text" placeholder=""
+                                                                                           class="form-control"></div>
+                                <div class="form-group"><label for="">规则类型</label> <input type="text" placeholder=""
+                                                                                          class="form-control"></div>
+                                <div class="form-group"><label for="">告警级别</label> <input type="text" placeholder=""
+                                                                                          class="form-control"></div>
+                            </form>
+                        </div>
+                        <div class="search-condition two_item">
+                            <form role="form" class="form-horizontal">
+                                <div class="form-group">
+                                    <div class="col-sm-1">规则配置:</div>
+                                    <div class="col-sm-1"><i class="radios active mar"></i><span>自动通知</span></div>
+                                    <div class="col-sm-1 tz">通知人:</div>
+                                    <div class="col-sm-3 in"><input type="text" placeholder="" class="form-control">
+                                    </div>
+                                    <div class="col-sm-1"><i class="radios active"></i><span>邮件通知</span></div>
+                                    <div class="col-sm-1 dx"><i class="radios active"></i><span>短信通知</span></div>
+                                    <div class="col-sm-1"><i class="radios active"></i><span>自动发工单</span></div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-1">规则配置:</div>
+                                    <div class="col-sm-1"><i class="radios active mar"></i><span>自动通知</span></div>
+                                    <div class="col-sm-1 tz">通知人:</div>
+                                    <div class="col-sm-3 in"><input type="text" placeholder="" class="form-control">
+                                    </div>
+                                    <div class="col-sm-1"><i class="radios active"></i><span>邮件通知</span></div>
+                                    <div class="col-sm-1 dx"><i class="radios active"></i><span>短信通知</span></div>
+                                    <div class="col-sm-1"><i class="radios active"></i><span>自动发工单</span></div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/datepicker.js" charset="UTF-8"></script>
-<script>
-    $('.main_content').replaceWith(
-        ['    <div data-title="告警规则详情" data-first-catalog="配置管理" data-second-catalog="告警规则配置" data-third-catalog="告警规则详情" class="main_content">',
-            '      <div class="main_nr gj_del">',
-            '        <button type="submit" class="btn btn-default back">返回</button>',
-            '        <div class="row">',
-            '          <div class="col-xs-12">',
-            '            <div class="search-condition fisrt_item">',
-            '              <form role="form" class="form-inline">',
-            '                <div class="form-group">',
-            '                  <label for="">公司名称</label>',
-            '                  <input type="text" placeholder="" class="form-control"/>',
-            '                </div>',
-            '                <div class="form-group">',
-            '                  <label for="">规则编号</label>',
-            '                  <input type="text" placeholder="" class="form-control"/>',
-            '                </div>',
-            '                <div class="form-group">',
-            '                  <label for="">资源组名称</label>',
-            '                  <input type="text" placeholder="" class="form-control"/>',
-            '                </div>',
-            '                <div class="form-group">',
-            '                  <label for="">规则类型</label>',
-            '                  <input type="text" placeholder="" class="form-control"/>',
-            '                </div>',
-            '                <div class="form-group">',
-            '                  <label for="">告警级别</label>',
-            '                  <input type="text" placeholder="" class="form-control"/>',
-            '                </div>',
-            '              </form>',
-            '            </div>',
-            '            <div class="search-condition two_item">',
-            '              <form role="form" class="form-horizontal">',
-            '                <div class="form-group">',
-            '                  <div class="col-sm-1">规则配置:</div>',
-            '                  <div class="col-sm-1"><i class="radios active mar"></i><span>自动通知</span></div>',
-            '                  <div class="col-sm-1 tz">通知人:</div>',
-            '                  <div class="col-sm-3 in">',
-            '                    <input type="text" placeholder="" class="form-control"/>',
-            '                  </div>',
-            '                  <div class="col-sm-1"><i class="radios active"></i><span>邮件通知</span></div>',
-            '                  <div class="col-sm-1 dx"><i class="radios active"></i><span>短信通知</span></div>',
-            '                  <div class="col-sm-1"><i class="radios active"></i><span>自动发工单</span></div>',
-            '                </div>',
-            '                <div class="form-group">',
-            '                  <div class="col-sm-1">规则配置:</div>',
-            '                  <div class="col-sm-1"><i class="radios active mar"></i><span>自动通知</span></div>',
-            '                  <div class="col-sm-1 tz">通知人:</div>',
-            '                  <div class="col-sm-3 in">',
-            '                    <input type="text" placeholder="" class="form-control"/>',
-            '                  </div>',
-            '                  <div class="col-sm-1"><i class="radios active"></i><span>邮件通知</span></div>',
-            '                  <div class="col-sm-1 dx"><i class="radios active"></i><span>短信通知</span></div>',
-            '                  <div class="col-sm-1"><i class="radios active"></i><span>自动发工单</span></div>',
-            '                </div>',
-            '              </form>',
-            '            </div>',
-            '          </div>',
-            '        </div>',
-            '      </div>',
-            '    </div>',
-        ].join("")
-    )
-</script>
 <script src="js/index.js" charset="UTF-8"></script>
 </body>
 

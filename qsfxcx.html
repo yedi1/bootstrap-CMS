@@ -16,108 +16,92 @@
 
 <body>
 <div class="container-fluid">
-
+    <div class="row left-menu">
+        <div class="row main_content qsfxcx" data-first-catalog="统计分析" data-second-catalog="趋势分析" data-title="趋势分析">
+            <div class="col-xs-2 bgf">
+                <div class="col-xs-12 active">服务器响应趋势</div>
+                <div class="col-xs-12">防火墙性能趋势</div>
+            </div>
+            <div class="col-xs-10 pa20">
+                <div class="row" style="    margin-bottom: 20px;">
+                    <div class="col-xs-6 tl">查询条件</div>
+                    <div class="col-xs-6 tr">
+                        <div class="btn btn-primary1" style="margin-right: 37px">查询</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <form role="form" class="form-inline col-xs-12">
+                        <div class="form-group"><label for="exampleInputEmail1">创建时间</label> <input
+                                id="exampleInputEmail1" type="text" data-language="zh"
+                                class="form-control datepicker-here"></div>
+                        <div class="form-group"><label for="exampleInputEmail12">结束时间</label> <input
+                                id="exampleInputEmail12" type="text" data-language="zh"
+                                class="form-control datepicker-here"></div>
+                        <div class="form-group"><label for="factory">公司名称</label> <select id="factory"
+                                                                                          class="form-control">
+                            <option>全部</option>
+                        </select></div>
+                        <div class="form-group"><label for="system_type">服务器主机名称</label> <select id="system_type"
+                                                                                                 class="form-control">
+                            <option>全部</option>
+                        </select></div>
+                    </form>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 mt30">
+                        <div class="col-xs-6 bgf"
+                             style="width: 406px;height:236px;            border: 1px solid #ddd;padding: 40px 10px;padding-top: 10px;margin-right: 10px;    margin-bottom: 10px;">
+                            <div>55221</div>
+                            <div class="" style="width: 100%;height:100%;border: 1px solid #ddd">
+                                <div style="width: 100%;height:20px;text-align:right;background: #f3f3f3">
+                                    <div style="background: #e4e4e4;width: 104px;text-align:center;    float: right;">
+                                        cpu占用折线
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 bgf"
+                             style="width: 406px;height:236px;            border: 1px solid #ddd;padding: 40px 10px;padding-top: 10px;margin-right: 10px;    margin-bottom: 10px;">
+                            <div>55221</div>
+                            <div class="" style="width: 100%;height:100%;border: 1px solid #ddd">
+                                <div style="width: 100%;height:20px;text-align:right;background: #f3f3f3">
+                                    <div style="background: #e4e4e4;width: 104px;text-align:center;    float: right;">
+                                        cpu占用折线
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 bgf"
+                             style="width: 406px;height:236px;            border: 1px solid #ddd;padding: 40px 10px;padding-top: 10px;margin-right: 10px;    margin-bottom: 10px;">
+                            <div>55221</div>
+                            <div class="" style="width: 100%;height:100%;border: 1px solid #ddd">
+                                <div style="width: 100%;height:20px;text-align:right;background: #f3f3f3">
+                                    <div style="background: #e4e4e4;width: 104px;text-align:center;    float: right;">
+                                        cpu占用折线
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 bgf"
+                             style="width: 406px;height:236px;            border: 1px solid #ddd;padding: 40px 10px;padding-top: 10px;margin-right: 10px;    margin-bottom: 10px;">
+                            <div>55221</div>
+                            <div class="" style="width: 100%;height:100%;border: 1px solid #ddd">
+                                <div style="width: 100%;height:20px;text-align:right;background: #f3f3f3">
+                                    <div style="background: #e4e4e4;width: 104px;text-align:center;    float: right;">
+                                        cpu占用折线
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/datepicker.js" charset="UTF-8"></script>
-<script>
-    $('.main_content').replaceWith(
-        [' <div class="row main_content qsfxcx"',
-            '             data-first-catalog="统计分析"',
-            '             data-second-catalog="趋势分析"',
-            '             data-title="趋势分析">',
-            '            <div class="col-xs-2 bgf">',
-            '                <div class="col-xs-12 active">服务器响应趋势</div>',
-            '                <div class="col-xs-12">防火墙性能趋势</div>',
-            '            </div>',
-            '            <div class="col-xs-10 pa20">',
-            '                <div class="row" style="    margin-bottom: 20px;">',
-            '                    <div class="col-xs-6 tl">查询条件</div>',
-            '                    <div class="col-xs-6 tr">',
-            '                        <div class="btn btn-primary1" style="margin-right: 37px">查询</div>',
-            '                    </div>',
-            '                </div>',
-            '                <div class="row">',
-            '                    <form role="form" class="form-inline col-xs-12">',
-            '                        <div class="form-group">',
-            '                            <label for="exampleInputEmail1">创建时间</label>',
-            '                            <input id="exampleInputEmail1" type="text" data-language="zh" class="form-control datepicker-here">',
-            '                        </div>',
-            '                        <div class="form-group">',
-            '                            <label for="exampleInputEmail12">结束时间</label>',
-            '                            <input id="exampleInputEmail12" type="text" data-language="zh" class="form-control datepicker-here">',
-            '                        </div>',
-            '                        <div class="form-group">',
-            '                            <label for="factory">公司名称</label>',
-            '                            <select id="factory" class="form-control">',
-            '                                <option>全部</option>',
-            '                            </select>',
-            '                        </div>',
-            '                        <div class="form-group">',
-            '                            <label for="system_type">服务器主机名称</label>',
-            '                            <select id="system_type" class="form-control">',
-            '                                <option>全部</option>',
-            '                            </select>',
-            '                        </div>',
-            '                    </form>',
-            '                </div>',
-            '                <div class="row">',
-            '                    <div class="col-xs-12 mt30">',
-            '                        <div class="col-xs-6 bgf" style="width: 406px;height:236px;',
-            '            border: 1px solid #ddd;padding: 40px 10px;padding-top: 10px;margin-right: 10px;',
-            '    margin-bottom: 10px;">',
-            '                            <div>55221</div>',
-            '                            <div class="" style="width: 100%;height:100%;border: 1px solid #ddd">',
-            '                                <div style="width: 100%;height:20px;text-align:right;background: #f3f3f3">',
-            '                                    <div style="background: #e4e4e4;width: 104px;text-align:center;',
-            '    float: right;">cpu占用折线',
-            '                                    </div>',
-            '                                </div>',
-            '                            </div>',
-            '                        </div>',
-            '                        <div class="col-xs-6 bgf" style="width: 406px;height:236px;',
-            '            border: 1px solid #ddd;padding: 40px 10px;padding-top: 10px;margin-right: 10px;',
-            '    margin-bottom: 10px;">',
-            '                            <div>55221</div>',
-            '                            <div class="" style="width: 100%;height:100%;border: 1px solid #ddd">',
-            '                                <div style="width: 100%;height:20px;text-align:right;background: #f3f3f3">',
-            '                                    <div style="background: #e4e4e4;width: 104px;text-align:center;',
-            '    float: right;">cpu占用折线',
-            '                                    </div>',
-            '                                </div>',
-            '                            </div>',
-            '                        </div>',
-            '                        <div class="col-xs-6 bgf" style="width: 406px;height:236px;',
-            '            border: 1px solid #ddd;padding: 40px 10px;padding-top: 10px;margin-right: 10px;',
-            '    margin-bottom: 10px;">',
-            '                            <div>55221</div>',
-            '                            <div class="" style="width: 100%;height:100%;border: 1px solid #ddd">',
-            '                                <div style="width: 100%;height:20px;text-align:right;background: #f3f3f3">',
-            '                                    <div style="background: #e4e4e4;width: 104px;text-align:center;',
-            '    float: right;">cpu占用折线',
-            '                                    </div>',
-            '                                </div>',
-            '                            </div>',
-            '                        </div>',
-            '                        <div class="col-xs-6 bgf" style="width: 406px;height:236px;',
-            '            border: 1px solid #ddd;padding: 40px 10px;padding-top: 10px;margin-right: 10px;',
-            '    margin-bottom: 10px;">',
-            '                            <div>55221</div>',
-            '                            <div class="" style="width: 100%;height:100%;border: 1px solid #ddd">',
-            '                                <div style="width: 100%;height:20px;text-align:right;background: #f3f3f3">',
-            '                                    <div style="background: #e4e4e4;width: 104px;text-align:center;',
-            '    float: right;">cpu占用折线',
-            '                                    </div>',
-            '                                </div>',
-            '                            </div>',
-            '                        </div>',
-            '                    </div>',
-            '                </div>',
-            '            </div>',
-            '        </div>'].join("")
-    )
-</script>
 <script src="js/index.js" charset="UTF-8"></script>
 </body>
 

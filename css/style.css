@@ -155,8 +155,8 @@ table>thead>tr>th {
 
 .newbtn {
     position: static;
-    float: right;
-    margin-top: 30px;
+    float: left;
+    /*margin-top: 30px;*/
 }
 
 .pages {
@@ -520,30 +520,8 @@ html {
     width: 1080px;
 }
 
-.index8 {
-    padding: 60px;
-}
 
-.index8 .col-xs-12:first-child {
-    background: #fff;
-    padding: 20px 14px 60px 17px;
-}
 
-.index8 .col-xs-12:last-child {
-    text-align: right;
-    margin-top: 35px;
-}
-
-.index8>.row:last-child>.btn {
-    margin-left: 22px;
-}
-
-.index8 .content_detail {
-    height: auto;
-    background-color: inherit;
-    margin-left: 138px;
-    border: 0;
-}
 
 .yoursite {
     padding-left: 52px;
@@ -792,12 +770,12 @@ label {
 
 .index8 .row:first-child {
     background: #fff;
-    padding: 20px 14px 60px 17px;
+    padding: 0px 14px 0px 17px;
 }
 
 .index8 .row:last-child {
     text-align: right;
-    margin-top: 35px;
+    /*margin-top: 35px;*/
 }
 
 .index8>.row:last-child>.btn {
@@ -824,13 +802,15 @@ label {
 }
 
 .ml30 {
-    margin-left: 30px;
+    margin-left: 8px;
 }
 
 .mt15 {
     margin-top: 15px;
 }
-
+.form-inline .form-group .w352{
+    width: 352px;
+}
 .mt25 {
     margin-top: 25px;
 }
@@ -844,12 +824,12 @@ label {
 }
 
 .form-inline .w855h100 {
-    width: 800px;
+    width: 835px;
     height: 100px;
 }
 
 .w855h252 {
-    width: 800px;
+    width: 835px;
     height: 252px;
     border: 1px solid #ddd;
     display: inline-block
@@ -866,7 +846,9 @@ label {
     /*border-bottom: 1px solid #ddd;
         border-top: 1px solid #ddd;*/
 }
-
+.index6 .form-inline .form-group>input{
+    text-align: left;
+}
 .mt20 {
     margin-top: 20px;
 }
@@ -880,7 +862,7 @@ label {
     display: inline-block;
     padding-left: 12px;
     height: 78px;
-    width: 710px;
+    width: 755px;
     overflow: overlay;
 }
 
@@ -891,6 +873,7 @@ label {
     margin-left: 66px;
     margin-top: 10px;
     padding: 0;
+    background: #e4e4e4;
 }
 
 .fuwuqis {
@@ -978,11 +961,11 @@ label {
 }
 
 .ml02 {
-    margin-left: 102px;
+    margin-left: 77px;
 }
 
 .form-inline .w348 {
-    width: 277px;
+    width: 321px;
 }
 
 .w50 {
@@ -991,7 +974,7 @@ label {
 }
 
 .form-inline .w333 {
-    width: 264px;
+    width: 306px;
 }
 
 .btn-group>.btn+.pa3 {
@@ -1001,11 +984,11 @@ label {
 }
 
 .form-inline .w868 {
-    width: 766px;
+    width: 829px;
 }
 
 .form-inline .w868h138 {
-    width: 766px;
+    width: 829px;
     height: 138px;
 }
 
