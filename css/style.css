@@ -115,6 +115,7 @@ header .headright span:last-child{
     background-position: right;
     background-color: #ffffff;
     text-align: left;
+    font-size: 12px;
 }
 
 .datepicker-here {
