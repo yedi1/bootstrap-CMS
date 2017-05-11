@@ -1,212 +1,521 @@
-<div class="row main_content gjlb"
-	 data-first-catalog="告警管理"
-	 data-second-catalog="告警列表"
-	 data-title="告警列表">
-	<div class="col-xs-12">
-		<div class="search-condition">
-			<form role="form" class="form-inline">
-				<div class="form-group">
-					<label for="exampleInputEmail1">
-						告警时间
-					</label>
-					<input type="text" class="form-control datepicker-here" id="exampleInputEmail1" />
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<meta name="description" content="主页">
+	<meta name="evan" content="2017.4.22">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/index.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/datepicker.css">
+</head>
+
+<body>
+<div class="container-fluid">
+	<div class=" headerbar">
+		<div>
+			<header><img src="img/cjzbpz/logo.png">
+				<div class="headright">
+                        <span>
+                            <img src="img/header/gwdj.png" alt="">
+                            <div>官网</div>
+                        </span>
+					<span>
+                           <img src="img/cjzbpz/icon-bz.png" alt="">
+                            <div>帮助</div>
+                        </span>
+					<span>
+                            <img src="img/cjzbpz/user.png" alt="">
+                            <div>个人中心</div>
+                        </span>
 				</div>
-				<div class="form-group">
-					<label for="resource_type">告警类型</label>
-					<select id="resource_type" class="form-control">
-						<option>全部</option>
-						<option>服务器</option>
-						<option>网络设备</option>
-						<option>数据库</option>
-						<option>中间件</option>
-						<option>安全设备</option>
-					</select>
-				</div>
-				<div class="form-group">
-					<label for="equip_type">告警级别</label>
-					<select id="equip_type" class="form-control">
-						<option>全部</option>
-						<option>服务器</option>
-						<option>网络设备</option>
-						<option>数据库</option>
-						<option>中间件</option>
-						<option>安全设备</option>
-					</select>
-				</div>
-				<div class="form-group">
-					<label for="factory">资源类型</label>
-					<select id="factory" class="form-control">
-						<option>全部</option>
-						<option>服务器</option>
-						<option>网络设备</option>
-						<option>数据库</option>
-						<option>中间件</option>
-						<option>安全设备</option>
-					</select>
-				</div>
-				<div class="btn-group all_resource">
-					<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						全部资源<span class="caret"></span>
-					</button>
-					<ul class="dropdown-menu">
-						<li><a href="#">部门一</a></li>
-						<li><a href="#">部门二</a></li>
-						<li><a href="#">部门三</a></li>
-						<li role="separator" class="divider"></li>
-						<li><a href="#">公司二</a></li>
-					</ul>
-				</div>
-				<br/>
-				<div class="form-group mt20">
-					<label for="resource_key">资源名称关键字</label>
-					<input type="text" class="form-control w346" placeholder="请输入关键词查询" id="resource_key" />
-				</div>
-				<div class="form-group mt20">
-					<label for="company_key">告警内容关键字</label>
-					<input type="text" class="form-control w261" placeholder="请输入关键词查询" id="company_key" />
-				</div>
-				<button type="submit" class="btn btn-default search b15">查询</button>
-			</form>
+			</header>
 		</div>
 	</div>
-	<div class="col-xs-12 table-responsive">
-		<table class="table table-bordered table-hover">
-			<thead>
-			<tr>
-				<th>告警编号</th>
-				<th>告警时间</th>
-				<th>告警类型</th>
-				<th>告警级别</th>
-				<th>资源类型</th>
-				<th>资源名称</th>
-				<th>告警内容</th>
-				<th>重复次数</th>
-				<th>状态</th>
-				<th>操作</th>
-			</tr>
-			</thead>
-			<tbody>
-			<tr>
-				<td>1234555</td>
-				<td>2016-12-12</td>
-				<td>故障告警</td>
-				<td>一般告警</td>
-				<td>服务器</td>
-				<td>xxxxxxs</td>
-				<td>ccdddddddd</td>
-				<td>10</td>
-				<td>未确认</td>
-				<td>
-					<button class="btn btn-mini" type="button">转工单</button>
-					<button class="btn btn-mini" type="button">删除</button>
-					<button class="btn btn-mini gjgzdetail" type="button">详情</button>
-				</td>
-			</tr>
-			<tr class="active">
-				<td>1234555</td>
-				<td>2016-12-12</td>
-				<td>故障告警</td>
-				<td>一般告警</td>
-				<td>服务器</td>
-				<td>xxxxxxs</td>
-				<td>ccdddddddd</td>
-				<td>10</td>
-				<td>未确认</td>
-				<td>
-					<button class="btn btn-mini" type="button">转工单</button>
-					<button class="btn btn-mini" type="button">删除</button>
-					<button class="btn btn-mini gjgzdetail" type="button">详情</button>
-				</td>
-			</tr>
-			<tr class="success">
-				<td>1234555</td>
-				<td>2016-12-12</td>
-				<td>故障告警</td>
-				<td>一般告警</td>
-				<td>服务器</td>
-				<td>xxxxxxs</td>
-				<td>ccdddddddd</td>
-				<td>10</td>
-				<td>未确认</td>
-				<td>
-					<button class="btn btn-mini" type="button">转工单</button>
-					<button class="btn btn-mini" type="button">删除</button>
-					<button class="btn btn-mini gjgzdetail" type="button">详情</button>
-				</td>
-			</tr>
-			<tr class="warning">
-				<td>1234555</td>
-				<td>2016-12-12</td>
-				<td>故障告警</td>
-				<td>一般告警</td>
-				<td>服务器</td>
-				<td>xxxxxxs</td>
-				<td>ccdddddddd</td>
-				<td>10</td>
-				<td>未确认</td>
-				<td>
-					<button class="btn btn-mini" type="button">转工单</button>
-					<button class="btn btn-mini" type="button">删除</button>
-					<button class="btn btn-mini gjgzdetail" type="button">详情</button>
-				</td>
-			</tr>
-			<tr class="danger">
-				<td>1234555</td>
-				<td>2016-12-12</td>
-				<td>故障告警</td>
-				<td>一般告警</td>
-				<td>服务器</td>
-				<td>xxxxxxs</td>
-				<td>ccdddddddd</td>
-				<td>10</td>
-				<td>未确认</td>
-				<td>
-					<button class="btn btn-mini" type="button">转工单</button>
-					<button class="btn btn-mini" type="button">删除</button>
-					<button class="btn btn-mini gjgzdetail" type="button">详情</button>
-				</td>
-			</tr>
-			</tbody>
-		</table>
-	</div>
-	<div class="col-xs-12">
-		<div class=" pages">显示第1到第15条记录, 总共732条记录,每页显示
-			<!-- Single button -->
-			<div class="btn-group dropdown">
-				<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					15 <span class="caret"></span>
-				</button>
-				<ul class="dropdown-menu">
-					<li><a href="#">1</a></li>
-					<li><a href="#">2</a></li>
-					<li><a href="#">3</a></li>
-					<li><a href="#">4</a></li>
-					<li><a href="#">5</a></li>
-				</ul>
-			</div>条记录
-			<ul class="pagination pagination-sm pagination-right">
-				<li>
-					<a href="#"><<</a>
-				</li>
-				<li>
-					<a href="#">1</a>
-				</li>
-				<li>
-					<a href="#">2</a>
-				</li>
-				<li>
-					<a href="#">3</a>
-				</li>
-				<li>
-					<a href="#">4</a>
-				</li>
-				<li>
-					<a href="#">5</a>
-				</li>
-				<li>
-					<a href="#">>></a>
-				</li>
+	<div class=" header-menu">
+		<div class=" yoursite">
+			<ul class="breadcrumb">
+				<li><a href="#" class="first_catalog">配置管理</a><span class="divider"></span></li>
+				<li><a href="#" class="second_catalog">采集指标配置</a><span class="divider"></span></li>
 			</ul>
 		</div>
 	</div>
+	<div class="row left-menu">
+		<div class="pad0" style="overflow:overlay ">
+			<div id="panel-578171" class="panel-group leftmenu">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<div><img src="img/cjzbpz/ybp-wdj.png" alt=""></div>
+						<a data-toggle="collapse" data-parent="#panel-578171" href="#panel-element-632610" class="panel-title">仪表盘</a>
+					</div>
+				</div>
+				<!--<div class="panel panel-default">-->
+				<!--<div class="panel-heading">-->
+				<!--<div><img src="img/cjzbpz/zcgl-wdj.png" alt=""></div>-->
+				<!--<a data-toggle="collapse" data-parent="#panel-578171" href="#panel-element-4422491"-->
+				<!--class="panel-title">资产管理</a>-->
+				<!--</div>-->
+				<!--<div id="panel-element-4422491" class="panel-collapse collapse">-->
+				<!--<div class="panel-body">-->
+				<!--<ul class="nav nav-pills nav-stacked">-->
+				<!--<li role="presentation"><a href="#">资产信息</a></li>-->
+				<!--<li role="presentation"><a href="#">性能管理</a></li>-->
+				<!--<li role="presentation"><a href="#">生命周期管理</a></li>-->
+				<!--</ul>-->
+				<!--</div>-->
+				<!--</div>-->
+				<!--</div>-->
+				<!--<div class="panel panel-default">-->
+				<!--<div class="panel-heading">-->
+				<!--<div><img src="img/cjzbpz/gjdl-wdj.png" alt=""></div>-->
+				<!--<a data-toggle="collapse" data-parent="#panel-578171" href="#panel-element-4422493"-->
+				<!--class="panel-title">告警管理</a>-->
+				<!--</div>-->
+				<!--<div id="panel-element-4422493" class="panel-collapse collapse">-->
+				<!--<div class="panel-body">-->
+				<!--<ul class="nav nav-pills nav-stacked">-->
+				<!--<li role="presentation"><a href="gjlb.html">告警列表</a></li>-->
+				<!--<li role="presentation"><a href="gjlb.html">告警规则配置</a></li>-->
+
+				<!--</ul>-->
+				<!--</div>-->
+				<!--</div>-->
+				<!--</div>-->
+				<!--<div class="panel panel-default">-->
+				<!--<div class="panel-heading">-->
+				<!--<div><img src="img/cjzbpz/ywgl-w-d-j.png" alt=""></div>-->
+				<!--<a data-toggle="collapse" data-parent="#panel-578171" href="#panel-element-4422494"-->
+				<!--class="panel-title">运维管理</a>-->
+				<!--</div>-->
+				<!--<div id="panel-element-4422494" class="panel-collapse collapse">-->
+				<!--<div class="panel-body">-->
+				<!--<ul class="nav nav-pills nav-stacked">-->
+				<!--<li role="presentation"><a href="#">工单工单</a></li>-->
+				<!--<li role="presentation"><a href="#">流程工单</a></li>-->
+				<!--<li role="presentation"><a href="#">运维查询</a></li>-->
+				<!--</ul>-->
+				<!--</div>-->
+				<!--</div>-->
+				<!--</div>-->
+				<!--<div class="panel panel-default">-->
+				<!--<div class="panel-heading">-->
+				<!--<div><img src="img/cjzbpz/pzgl-wdj.png" alt=""></div>-->
+				<!--<a id="panel-5781710" data-toggle="collapse" data-parent="#panel-578171"-->
+				<!--href="#panel-element-4422495" class="panel-title">配置管理</a>-->
+				<!--</div>-->
+				<!--<div id="panel-element-4422495" class="panel-collapse collapse">-->
+				<!--<div class="panel-body">-->
+				<!--<ul class="nav nav-pills nav-stacked">-->
+				<!--<li role="presentation"><a  href="#">资源配置</a></li>-->
+				<!--<li role="presentation"><a hrzyywfp.htmlhtml">资源组配置</a></li>-->
+				<!--<li role="presentation"><a href="cjzbpz.html">采集指标配置</a></li>-->
+				<!--<li role="presentation"><a href="gjgzpz.html">告警规则配置</a></li>-->
+				<!--<li role="presentation"><a hrzyywpz.htmlhtml">运维资源配置</a></li>-->
+				<!--</ul>-->
+				<!--</div>-->
+				<!--</div>-->
+				<!--</div>-->
+				<!--<div class="panel panel-default">-->
+				<!--<div class="panel-heading">-->
+				<!--<div><img src="img/cjzbpz/xjgj-wdj.png" alt=""></div>-->
+				<!--<a data-toggle="collapse" data-parent="#panel-578171" href="#panel-element-4422497"-->
+				<!--class="panel-title">巡检工具</a>-->
+				<!--</div>-->
+				<!--<div id="panel-element-4422497" class="panel-collapse collapse">-->
+				<!--<div class="panel-body">-->
+				<!--<ul class="nav nav-pills nav-stacked">-->
+				<!--<li role="presentation"><a href="#">手动巡检</a></li>-->
+				<!--<li role="presentation"><a href="#">自动巡检</a></li>-->
+				<!--<li role="presentation"><a href="#">巡检查询</a></li>-->
+				<!--<li role="presentation"><a href="#">巡检报告</a></li>-->
+				<!--</ul>-->
+				<!--</div>-->
+				<!--</div>-->
+				<!--</div>-->
+				<!--<div class="panel panel-default">-->
+				<!--<div class="panel-heading">-->
+				<!--<div><img src="img/cjzbpz/tjfx-wdj.png" alt=""></div>-->
+				<!--<a data-toggle="collapse" data-parent="#panel-578171" href="#panel-element-4422498"-->
+				<!--class="panel-title">统计分析</a>-->
+				<!--</div>-->
+				<!--<div id="panel-element-4422498" class="panel-collapse collapse">-->
+				<!--<div class="panel-body">-->
+				<!--<ul class="nav nav-pills nav-stacked">-->
+				<!--<li role="presentation"><a href="#">综合分析</a></li>-->
+				<!--<li role="presentation"><a href="#">实时分析</a></li>-->
+				<!--<li role="presentation"><a href="#">趋势分析</a></li>-->
+				<!--<li role="presentation"><a href="#">统计报表</a></li>-->
+				<!--</ul>-->
+				<!--</div>-->
+				<!--</div>-->
+				<!--</div>-->
+				<!--<div class="panel panel-default">-->
+				<!--<div class="panel-heading">-->
+				<!--<div><img src="img/cjzbpz/xtgl-wdj.png" alt=""></div>-->
+				<!--<a data-toggle="collapse" data-parent="#panel-578171" href="#panel-element-4422499"-->
+				<!--class="panel-title">系统管理</a>-->
+				<!--</div>-->
+				<!--<div id="panel-element-4422499" class="panel-collapse collapse">-->
+				<!--<div class="panel-body">-->
+				<!--<ul class="nav nav-pills nav-stacked">-->
+				<!--<li role="presentation"><a href="#">组织管理</a></li>-->
+				<!--<li role="presentation"><a href="#">角色管理</a></li>-->
+				<!--<li role="presentation"><a href="rygl.html">人员管理</a></li>-->
+				<!--<li role="presentation"><a href="#">日志管理</a></li>-->
+				<!--</ul>-->
+				<!--</div>-->
+				<!--</div>-->
+				<!--</div>-->
+				<!--<div class="panel panel-default">-->
+				<!--<div class="panel-heading">-->
+				<!--<div><img src="img/cjzbpz/zhgl.png" alt=""></div>-->
+				<!--<a data-toggle="collapse" data-parent="#panel-578171" href="#panel-element-44224910"-->
+				<!--class="panel-title">租户管理</a>-->
+				<!--</div>-->
+				<!--<div id="panel-element-44224910" class="panel-collapse collapse">-->
+				<!--<div class="panel-body">-->
+				<!--<ul class="nav nav-pills nav-stacked">-->
+				<!--<li role="presentation"><a href="#">租户维护</a></li>-->
+				<!--<li role="presentation"><a href="#">应用维护</a></li>-->
+				<!--</ul>-->
+				<!--</div>-->
+				<!--</div>-->
+				<!--</div>-->
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<div><img src="img/cjzbpz/zhgl.png" alt=""></div>
+						<a data-toggle="collapse" data-parent="#panel-578171" href="#panel-element-442249103" class="panel-title">所有页面</a>
+					</div>
+					<div id="panel-element-442249103" class="panel-collapse collapse">
+						<div class="panel-body">
+							<ul class="nav nav-pills nav-stacked">
+								<li role="presentation"><a href="Proxy.html">Proxy</a></li>
+								<li role="presentation"><a href="all_gd.html">全部工单</a></li>
+								<li role="presentation"><a href="gz_cl.html">工单处理</a></li>
+								<li role="presentation"><a href="team_pz.html">团队配置</a></li>
+								<li role="presentation"><a href="zyywpz.html">资源运维配置</a></li>
+								<li role="presentation"><a href="tdxz.html">团队新增</a></li>
+								<li role="presentation"><a href="zyywfp.html">资源运维分配</a></li>
+								<li role="presentation"><a href="zyzxq.html">资源组</a></li>
+								<li role="presentation"><a href="cjzbpz.html">采集指标配置</a></li>
+								<li role="presentation"><a href="fwqzylb.html">服务器资源列表</a></li>
+								<li role="presentation"><a href="gjgzpz.html">告警规则配置</a></li>
+								<li role="presentation"><a href="gjgzxq.html">告警规则详情</a></li>
+								<li role="presentation"><a href="gjlb.html">告警列表</a></li>
+								<li role="presentation"><a href="fwqpzxx.html">服务器配置信息</a></li>
+								<li role="presentation"><a href="qsfxcx.html">趋势分析查询</a></li>
+								<li role="presentation"><a href="fwqpzxxck.html">服务器配置信息查看</a></li>
+								<li role="presentation"><a href="zcxq.html">资产详情</a></li>
+								<li role="presentation"><a href="zcxx.html">资产信息</a></li>
+								<li role="presentation"><a href="caijizhibiao.html">采集指标配置修改</a></li>
+								<li role="presentation"><a href="gj_add.html">告警规则新增</a></li>
+								<!--<li role="presentation"><a href="gj_del.html">告警规则详情</a></li>-->
+								<li role="presentation"><a href="res_pz.html">资源配置</a></li>
+								<li role="presentation"><a href="zyxxwh.html">资源信息维护</a></li>
+								<li role="presentation"><a href="ryxz.html">人员新增</a></li>
+								<li role="presentation"><a href="zyjk.html">资源监控</a></li>
+								<li role="presentation"><a href="rygl.html">人员管理</a></li>
+								<li role="presentation"><a href="ywzypz.html">运维资源配置</a></li>
+								<li role="presentation"><a href="tjbb.html">统计报表</a></li>
+								<li role="presentation"><a href="fwqzyxg.html">服务器资源修改</a></li>
+								<li role="presentation"><a href="yibiaopan.html">仪表盘</a></li>
+								<li role="presentation"><a href="zhibiao_check.html">服务器性能指标查看</a></li>
+
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="qybb"><img src="img/qybb.png" alt=""></div>
+			</div>
+		</div>
+
+		<div class="row main_content gjlb"
+			 data-first-catalog="告警管理"
+			 data-second-catalog="告警列表"
+			 data-title="告警列表">
+			<div class="col-xs-12">
+				<div class="search-condition">
+					<form role="form" class="form-inline">
+						<div class="form-group">
+							<label for="exampleInputEmail1">
+								告警时间
+							</label>
+							<input type="text" class="form-control datepicker-here" id="exampleInputEmail1" />
+						</div>
+						<div class="form-group">
+							<label for="resource_type">告警类型</label>
+							<select id="resource_type" class="form-control">
+								<option>全部</option>
+								<option>服务器</option>
+								<option>网络设备</option>
+								<option>数据库</option>
+								<option>中间件</option>
+								<option>安全设备</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label for="equip_type">告警级别</label>
+							<select id="equip_type" class="form-control">
+								<option>全部</option>
+								<option>服务器</option>
+								<option>网络设备</option>
+								<option>数据库</option>
+								<option>中间件</option>
+								<option>安全设备</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label for="factory">资源类型</label>
+							<select id="factory" class="form-control">
+								<option>全部</option>
+								<option>服务器</option>
+								<option>网络设备</option>
+								<option>数据库</option>
+								<option>中间件</option>
+								<option>安全设备</option>
+							</select>
+						</div>
+						<div class="btn-group all_resource">
+							<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								全部资源<span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu">
+								<li><a href="#">部门一</a></li>
+								<li><a href="#">部门二</a></li>
+								<li><a href="#">部门三</a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="#">公司二</a></li>
+							</ul>
+						</div>
+						<br/>
+						<div class="form-group mt20">
+							<label for="resource_key">资源名称关键字</label>
+							<input type="text" class="form-control w346" placeholder="请输入关键词查询" id="resource_key" />
+						</div>
+						<div class="form-group mt20">
+							<label for="company_key">告警内容关键字</label>
+							<input type="text" class="form-control w261" placeholder="请输入关键词查询" id="company_key" />
+						</div>
+						<button type="submit" class="btn btn-default search b15">查询</button>
+					</form>
+				</div>
+			</div>
+			<div class="col-xs-12 table-responsive">
+				<table class="table table-bordered table-hover">
+					<thead>
+					<tr>
+						<th>告警编号</th>
+						<th>告警时间</th>
+						<th>告警类型</th>
+						<th>告警级别</th>
+						<th>资源类型</th>
+						<th>资源名称</th>
+						<th>告警内容</th>
+						<th>重复次数</th>
+						<th>状态</th>
+						<th>操作</th>
+					</tr>
+					</thead>
+					<tbody>
+					<tr>
+						<td>1234555</td>
+						<td>2016-12-12</td>
+						<td>故障告警</td>
+						<td>一般告警</td>
+						<td>服务器</td>
+						<td>xxxxxxs</td>
+						<td>ccdddddddd</td>
+						<td>10</td>
+						<td>未确认</td>
+						<td>
+							<button class="btn btn-mini" type="button">转工单</button>
+							<button class="btn btn-mini" type="button">删除</button>
+							<button class="btn btn-mini gjgzdetail" type="button">详情</button>
+						</td>
+					</tr>
+					<tr class="active">
+						<td>1234555</td>
+						<td>2016-12-12</td>
+						<td>故障告警</td>
+						<td>一般告警</td>
+						<td>服务器</td>
+						<td>xxxxxxs</td>
+						<td>ccdddddddd</td>
+						<td>10</td>
+						<td>未确认</td>
+						<td>
+							<button class="btn btn-mini" type="button">转工单</button>
+							<button class="btn btn-mini" type="button">删除</button>
+							<button class="btn btn-mini gjgzdetail" type="button">详情</button>
+						</td>
+					</tr>
+					<tr class="success">
+						<td>1234555</td>
+						<td>2016-12-12</td>
+						<td>故障告警</td>
+						<td>一般告警</td>
+						<td>服务器</td>
+						<td>xxxxxxs</td>
+						<td>ccdddddddd</td>
+						<td>10</td>
+						<td>未确认</td>
+						<td>
+							<button class="btn btn-mini" type="button">转工单</button>
+							<button class="btn btn-mini" type="button">删除</button>
+							<button class="btn btn-mini gjgzdetail" type="button">详情</button>
+						</td>
+					</tr>
+					<tr class="warning">
+						<td>1234555</td>
+						<td>2016-12-12</td>
+						<td>故障告警</td>
+						<td>一般告警</td>
+						<td>服务器</td>
+						<td>xxxxxxs</td>
+						<td>ccdddddddd</td>
+						<td>10</td>
+						<td>未确认</td>
+						<td>
+							<button class="btn btn-mini" type="button">转工单</button>
+							<button class="btn btn-mini" type="button">删除</button>
+							<button class="btn btn-mini gjgzdetail" type="button">详情</button>
+						</td>
+					</tr>
+					<tr class="danger">
+						<td>1234555</td>
+						<td>2016-12-12</td>
+						<td>故障告警</td>
+						<td>一般告警</td>
+						<td>服务器</td>
+						<td>xxxxxxs</td>
+						<td>ccdddddddd</td>
+						<td>10</td>
+						<td>未确认</td>
+						<td>
+							<button class="btn btn-mini" type="button">转工单</button>
+							<button class="btn btn-mini" type="button">删除</button>
+							<button class="btn btn-mini gjgzdetail" type="button">详情</button>
+						</td>
+					</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="col-xs-12">
+				<div class=" pages">显示第1到第15条记录, 总共732条记录,每页显示
+					<!-- Single button -->
+					<div class="btn-group dropdown">
+						<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							15 <span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu">
+							<li><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+							<li><a href="#">5</a></li>
+						</ul>
+					</div>条记录
+					<ul class="pagination pagination-sm pagination-right">
+						<li>
+							<a href="#"><<</a>
+						</li>
+						<li>
+							<a href="#">1</a>
+						</li>
+						<li>
+							<a href="#">2</a>
+						</li>
+						<li>
+							<a href="#">3</a>
+						</li>
+						<li>
+							<a href="#">4</a>
+						</li>
+						<li>
+							<a href="#">5</a>
+						</li>
+						<li>
+							<a href="#">>></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+	</div>
 </div>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/datepicker.js" charset="UTF-8"></script>
+<script>
+    $(function() {
+
+        var getContent = function(url, callback) {
+            $.ajax({
+                type: "GET",
+                url: url,
+                dataType: "html",
+                success: function(data) {
+                    var main = $(data);
+                    $('.third-catalog').parent().remove();
+                    $('.four-catalog').parent().remove();
+                    $('.first_catalog').html(main.data('first-catalog'));
+                    $('.second_catalog').html(main.data('second-catalog'));
+                    if (main.data('third-catalog')) {
+                        $('.breadcrumb').append('<li><a href="#" class="third-catalog">' + main.data('third-catalog') + '</a><span class="divider"></span> </li>');
+                    }
+                    if (main.data('four-catalog')) {
+                        $('.breadcrumb').append('<li><a href="#" class="third-catalog">' + main.data('four-catalog') + '</a><span class="divider"></span> </li>');
+                    }
+                    $('title').html(main.data('title'));
+                    $(".main_content").replaceWith(main);
+                    $('.datepicker-here').datepicker({
+                        language: 'en'
+                    });
+
+                    $('#gj_add .checks').click(function() {//选框
+                        $(this).toggleClass('active')
+                    });
+                    $('.actionlist .btn').click(function() {//按钮颜色
+                        $(this).toggleClass('btnactive')
+                    });
+                    $('.ximg').click(function() {//删除按钮
+                        $(this).parents('.main_content7_elem').remove()
+                    });
+//                        $('header .headright span').mousemove(function() {//删除按钮
+//                            debugger
+//                            $(this).find('img').attr('src',($(this).find('img').attr('src').split('.')[0]+1)+'.png')
+//                        });
+                    $('.dropdown-menu li').click(function() {//下拉菜单
+                        $(this).parents('.btn-group').find('button:first').html($(this).text());
+                    });
+
+                    callback && callback();
+                },
+                error: function(error) {
+                    alert(error.message);
+                }
+            });
+        };
+        $('.nav>li a').click(function(e) {
+            e.preventDefault();
+            var href = $(this).attr('href');
+
+            if (!(href.indexOf('#') > -1 || !href)) {} else {
+                alert("未添加");
+                return;
+            }
+            getContent(href);
+
+        });
+//    getContent('Proxy.html');
+    })
+</script>
+</body>
+
+</html>
