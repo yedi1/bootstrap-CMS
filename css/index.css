@@ -273,7 +273,9 @@ tbody .btn-mini {
 .gdcl .newbtn {
     margin-top: 0;
     margin-left: 22px;
+    float: right;
 }
+
 
 .btn-c {
     width: 103px;
