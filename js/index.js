@@ -32,7 +32,8 @@ $(function() {
         });
 
         $('#gj_add .checks').click(function() {//选框
-            $(this).toggleClass('active')
+            $(this).parent().find('.checks').not(this).removeClass('active');
+            $(this).toggleClass('active');
         });
         $('.actionlist .btn').click(function() {//按钮颜色
             $(this).toggleClass('btnactive')
