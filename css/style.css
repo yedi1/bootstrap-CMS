@@ -838,7 +838,7 @@ label {
 .fuwuqi_left {
     display: inline-block;
     width: 78px;
-    height: 84px;
+    height: 83px;
     line-height: 84px;
     text-align: center;
     background: #27a088;
@@ -1056,7 +1056,7 @@ label {
 .index6 .con {
     border: 1px solid #ddd;
     background-color: #fff;
-    margin: 80px 60px 0 60px;
+    margin: 80px 60px 60px 60px;
     overflow: hidden;
 }
 
@@ -1186,6 +1186,12 @@ label {
     margin-right: 23px;
     margin-bottom: 30px;
 }
+.fwqzylb-list>div{
+    margin-right: 31px;
+}
+.fwqzylb-list>div:last-child{
+    margin-right: 0;
+}
 
 .ywzypz img {
     margin: 10px 16px;
@@ -1222,15 +1228,15 @@ label {
 }
 
 .gjgzxq .gjgzxq-content {
-    height: 140px;
+    height: 100px;
     background-color: #FFFFFF;
-    padding: 30px;
+    padding:15px 30px;
     overflow-y: scroll;
 }
 
 .gjgzxq .gjgzxq-content .qjgzxq-item>div {
     display: inline-block;
-    margin-right: 59px;
+    margin-right: 42px;
 }
 
 .qjgzxq-item .chk_1+label {
@@ -1269,8 +1275,8 @@ label {
 }
 
 .fwqzylb-list .fwqzylb-item {
-    width: 329px;
-    height: 258px;
+    width: 311px;
+    height: 241px;
     border: solid 15px #fff;
     background-color: inherit;
     position: relative;
@@ -1302,7 +1308,7 @@ label {
 
 .fwqzylb-item .item-footer img {
     margin: 0 2px;
-    width: 38px;
+    width: 35px;
 }
 
 .unstyled li {

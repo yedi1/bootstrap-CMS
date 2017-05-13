@@ -40,6 +40,9 @@ $(function() {
         $('.ximg').click(function() {//删除按钮
             $(this).parents('.main_content7_elem').remove()
         });
+        $('#gj_add .item_sel img').click(function() {//删除按钮
+            $(this).parent().remove()
+        });
         $('.fujian i').click(function() {//删除按钮
             $(this).parents('.fujian').remove()
         });

@@ -205,6 +205,12 @@ tbody .btn-mini {
 
 .table>tbody>tr>td {
     vertical-align: middle;
+    height: 30px;
+    color: #666;
+}
+.table>thead>tr>th{
+    font-weight: 400;
+    color: #333;
 }
 
 .gdcl .search-condition {
@@ -396,11 +402,11 @@ tbody .btn-mini {
 }
 
 .b15 {
-    bottom: 15px;
+    bottom: 8px;
 }
 
 .form-inline .form-group .w346 {
-    width: 335px;
+    width: 297px;
 }
 
 .form-inline .form-group .w261 {
@@ -486,7 +492,10 @@ tbody .btn-mini {
 
 #fwqpzxx .fwqzylb-item {
     width: 302px;
-    height: 247px;
+    height: 267px;
+}
+#fwqpzxx input{
+    text-align: left;
 }
 
 #fwqpzxx .server {
@@ -700,6 +709,10 @@ tbody .btn-mini {
 
 #zcxx th {
     font-weight: 400;
+    height: 30px;line-height: 30px;
+}
+#zcxx input{
+    text-align: left;
 }
 
 .all_gd .form-inline .form-group {
@@ -738,6 +751,9 @@ tbody .btn-mini {
     background-color: #e4e4e4;
     height: 30px;
     margin: 0 8px 15px 0;
+}
+#zyywpz .form-inline .form-group{
+    margin: 0 8px 0 0;
 }
 
 .index9 .form-inline .form-group>select,
@@ -803,7 +819,9 @@ tbody .btn-mini {
     padding: 4px 8px;
     border-radius: 0;
 }
-
+#gjgzpz .form-inline .form-group>select{
+    width: 137px;
+}
 .gjgzxq .form-inline .form-group {
     background-color: #e4e4e4;
     height: 30px;
@@ -820,7 +838,7 @@ tbody .btn-mini {
 }
 
 .gjgzxq .form-inline .form-group>input {
-    width: 284px;
+    width: 261px;
 }
 
 .fwqzyxg .form-inline .form-group {
@@ -1205,7 +1223,7 @@ em {
 }
 
 #gj_add .search-condition .items .form-group .col-xs-1.mr29 {
-    margin-right: 29px;
+    margin-right: 23px;
 }
 
 #gj_add .search-condition .items .form-group .col-xs-1 input {
@@ -1637,4 +1655,20 @@ em {
 }
 .aaa .table-bordered>tbody>tr>td{
     padding: 8px;
+}
+#team_pz td{
+    height: 30px;
+}
+#zyywpz .btn-default{
+    color: #666;
+}
+#tdxz .form-inline .form-group>label{
+    text-align: right;
+}
+#zyywfp .table>tbody>tr>td{
+    padding: 0;
+}
+
+.gjlb .form-group input{
+    text-align: left;
 }
