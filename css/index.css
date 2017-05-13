@@ -466,12 +466,17 @@ tbody .btn-mini {
 .table>tbody>tr .b0 {
     border: 0;
 }
-
-.cpu0 {
-    margin-left: 38px;
+.cpu0 .row>div{
+    padding: 0;
+}
+.cpu0 .col-xs-4 {
+    text-align: right;
+}
+.cpu0 .col-xs-8 {
+    text-align: left;
 }
 
-.cpu0 div {
+.cpu0 .row div {
     margin-top: 15px;
 }
 
