@@ -1683,3 +1683,6 @@ em {
 .gjlb .form-group input{
     text-align: left;
 }
+.pad0 .panel-title{
+    text-align: center;
+}
