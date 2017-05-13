@@ -56,7 +56,10 @@ textarea {
     height: 36px;
     cursor: pointer;
 }
-.main_content .main_nr .box .list .proxy_btn li img:hover{
+#switch .item-footer img{
+    cursor: pointer;
+}
+#switch li img:hover,#switch .item-footer img:hover{
    width: 38px;
     height:38px;
 }
@@ -957,6 +960,7 @@ em {
     background-size: 100% 100%;
     padding: 12px 28px 0;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 
 .res_pz .two_order li .items .pic {
@@ -1682,4 +1686,7 @@ em {
 
 .gjlb .form-group input{
     text-align: left;
+}
+.pad0 .panel-title{
+    text-align: center;
 }

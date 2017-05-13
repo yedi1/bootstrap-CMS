@@ -21,27 +21,27 @@
              data-third-catalog="Proxy列表">
             <div class="main_nr">
                 <button type="submit" class="btn btn-default back" style="right: 80px ">返回</button>
-                <form class="form-horizontal">
-                    <div class="form-group">
-                        <div class="col-sm-4">
+                <form class="form-horizontal" >
+                    <div class="form-group" id="switch">
+                        <div class="col-sm-4 switch1">
                             <div class="box">
                                 <div class="list">
                                     <div class="nr"><p>主机名:1237890</p>
                                         <p>IP地址:123.123.123.123</p>
                                         <p class="mt51">操作系统:Windows Server 2010 64位</p><img src="img/cjzbpz/c.png"
                                                                                              title="" class="cai"></div>
-                                    <ul class="list-inline proxy_btn">
+                                    <ul class="list-inline proxy_btn" >
                                         <li><img src="img/cjzbpz/i1.png" title="1"></li>
                                         <li><img src="img/cjzbpz/i2.png" title="2"></li>
                                         <li><img src="img/cjzbpz/i3.png" title="3"></li>
                                         <li><img src="img/cjzbpz/wjsd_w.png" title="4"></li>
                                         <li><img src="img/cjzbpz/i5.png" title="5"></li>
-                                        <li><img src="img/cjzbpz/Switchers.png" title="6"></li>
+                                        <li><img src="img/cjzbpz/Switchers.png" title="6" style="transition:transform 1s"  data-toggle="modal" data-target=".bs-example-modal-sm"></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-4">
+                        <div class="col-sm-4 switch1">
                             <div class="box">
                                 <div class="list">
                                     <div class="nr"><p>主机名:1237890</p>
@@ -54,12 +54,12 @@
                                         <li><img src="img/cjzbpz/i3.png" title="3"></li>
                                         <li><img src="img/cjzbpz/wjsd_w.png" title="4"></li>
                                         <li><img src="img/cjzbpz/i5.png" title="5"></li>
-                                        <li><img src="img/cjzbpz/Switchers.png" title="6"></li>
+                                        <li><img src="img/cjzbpz/Switchers.png" title="6" style="transition:transform 1s"  data-toggle="modal" data-target=".bs-example-modal-sm"></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-4">
+                        <div class="col-sm-4 switch1">
                             <div class="box">
                                 <div class="list">
                                     <div class="nr"><p>主机名:1237890</p>
@@ -72,7 +72,7 @@
                                         <li><img src="img/cjzbpz/i3.png" title="3"></li>
                                         <li><img src="img/cjzbpz/wjsd_w.png" title="4"></li>
                                         <li><img src="img/cjzbpz/i5.png" title="5"></li>
-                                        <li><img src="img/cjzbpz/Switchers.png" title="6"></li>
+                                        <li><img src="img/cjzbpz/Switchers.png" title="6" style="transition:transform 1s"  data-toggle="modal" data-target=".bs-example-modal-sm"></li>
                                     </ul>
                                 </div>
                             </div>
@@ -104,6 +104,21 @@
                                 <li><a href="#">5</a></li>
                                 <li><a href="#">&gt;&gt;</a></li>
                             </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                <div class="modal-dialog modal-sm" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                    aria-hidden="true">×</span></button>
+                            <h4 class="modal-title" id="mySmallModalLabel">确定关闭吗?</h4></div>
+                        <div class="modal-footer" style="text-align: center">
+                            <button type="button" class="btn btn-primary" style="margin-right: 40px;" data-dismiss="modal">确定</button>
+                            <button type="button" class="btn btn-default"  data-dismiss="modal">取消</button>
+
                         </div>
                     </div>
                 </div>

@@ -24,8 +24,8 @@
                 <button type="button" class="btn btn-primary1 "
                         style="margin-left: 881px;margin-top: 22px;margin-bottom: 22px">返回
                 </button>
-                <div class="fwqzylb-list">
-                    <div class="fwqzylb-item">
+                <div class="fwqzylb-list"  id="switch">
+                    <div class="fwqzylb-item switch1">
                         <div class="server"><img src="img/fwqzylb/icon.png" alt=""></div>
                         <div class="item-container">
                             <ul class="unstyled">
@@ -36,16 +36,16 @@
                                 <li>操作系统：Windows server 2010 64位</li>
                             </ul>
                         </div>
-                        <div class="item-footer">
-                            <img src="img/fwqzylb/icon1.png" alt="" title="添加" style="cursor:pointer"/>
-                            <img src="img/fwqzylb/icon2.png" alt="" title="删除" style="cursor:pointer"/>
+                        <div class="item-footer ">
+                            <img src="img/fwqzylb/icon1.png" alt="" title="添加"    style="cursor:pointer"/>
+                            <img src="img/fwqzylb/icon2.png" alt="" title="删除"    style="cursor:pointer"/>
                             <img src="img/fwqzylb/icon6.png" alt="" title="资产详情" style="cursor:pointer"/>
-                            <img src="img/fwqzylb/icon5.png" alt="" title="下载" style="cursor:pointer"/>
+                            <img src="img/fwqzylb/icon5.png" alt="" title="下载"     style="cursor:pointer"/>
                             <img src="img/fwqzylb/icon4.png" alt="" title="资源列表" style="cursor:pointer"/>
-                            <img src="img/fwqzylb/icon3.png" alt="" title="开关" style="cursor:pointer"/>
+                            <img src="img/fwqzylb/icon3.png" alt="" title="开关" style="transition:transform 1s"  data-toggle="modal" data-target=".bs-example-modal-sm"/>
                         </div>
                     </div>
-                    <div class="fwqzylb-item">
+                    <div class="fwqzylb-item switch1">
                         <div class="server"><img src="img/fwqzylb/icon.png" alt=""></div>
                         <div class="item-container">
                             <ul class="unstyled">
@@ -56,16 +56,16 @@
                                 <li>操作系统：Windows server 2010 64位</li>
                             </ul>
                         </div>
-                        <div class="item-footer">
+                        <div class="item-footer ">
                             <img src="img/fwqzylb/icon1.png" alt="" title="添加" style="cursor:pointer"/>
                             <img src="img/fwqzylb/icon2.png" alt="" title="删除" style="cursor:pointer"/>
                             <img src="img/fwqzylb/icon6.png" alt="" title="资产详情" style="cursor:pointer"/>
                             <img src="img/fwqzylb/icon5.png" alt="" title="下载" style="cursor:pointer"/>
                             <img src="img/fwqzylb/icon4.png" alt="" title="资源列表" style="cursor:pointer"/>
-                            <img src="img/fwqzylb/icon3.png" alt="" title="开关" style="cursor:pointer"/>
+                            <img src="img/fwqzylb/icon3.png" alt="" title="开关" style="transition:transform 1s"  data-toggle="modal" data-target=".bs-example-modal-sm" />
                         </div>
                     </div>
-                    <div class="fwqzylb-item">
+                    <div class="fwqzylb-item switch1">
                         <div class="server"><img src="img/fwqzylb/icon.png" alt=""></div>
                         <div class="item-container">
                             <ul class="unstyled">
@@ -76,13 +76,13 @@
                                 <li>操作系统：Windows server 2010 64位</li>
                             </ul>
                         </div>
-                        <div class="item-footer">
+                        <div class="item-footer ">
                             <img src="img/fwqzylb/icon1.png" alt="" title="添加" style="cursor:pointer"/>
                             <img src="img/fwqzylb/icon2.png" alt="" title="删除" style="cursor:pointer"/>
                             <img src="img/fwqzylb/icon6.png" alt="" title="资产详情" style="cursor:pointer"/>
                             <img src="img/fwqzylb/icon5.png" alt="" title="下载" style="cursor:pointer"/>
                             <img src="img/fwqzylb/icon4.png" alt="" title="资源列表" style="cursor:pointer"/>
-                            <img src="img/fwqzylb/icon3.png" alt="" title="开关" style="cursor:pointer"/>
+                            <img src="img/fwqzylb/icon3.png" alt="" title="开关" style="transition:transform 1s"  data-toggle="modal" data-target=".bs-example-modal-sm" />
                         </div>
                     </div>
                 </div>
@@ -107,6 +107,21 @@
                         </ul>
                 </div>
 
+            </div>
+            <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                <div class="modal-dialog modal-sm" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                    aria-hidden="true">×</span></button>
+                            <h4 class="modal-title" id="mySmallModalLabel">确定关闭吗?</h4></div>
+                        <div class="modal-footer" style="text-align: center">
+                            <button type="button" class="btn btn-primary" style="margin-right: 40px;" data-dismiss="modal">确定</button>
+                            <button type="button" class="btn btn-default"  data-dismiss="modal">取消</button>
+
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
