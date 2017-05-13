@@ -233,7 +233,7 @@ tbody .btn-mini {
     padding-right: 0 !important;
     margin-top: 9px;
 }
-#gdcl .form-group div {
+#gdcl .form-group input{
 
     margin-top: 9px;
 }
@@ -287,7 +287,9 @@ tbody .btn-mini {
 .gdcl .newbtn {
     margin-top: 0;
     margin-left: 22px;
+    float: right;
 }
+
 
 .btn-c {
     width: 103px;
