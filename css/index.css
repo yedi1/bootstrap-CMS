@@ -114,7 +114,7 @@ tbody .btn-mini {
     margin-top: 15px;
     margin-bottom: 15px;
 }
-}
+
 
 .all_gd {
     padding: 55px 40px 0;
@@ -146,6 +146,13 @@ tbody .btn-mini {
 
 .all_gd .row .col-xs-12 .search-condition input.wid {
     width: 318px;
+}
+
+#all_gd .row .col-xs-12 .search-condition input.wid {
+    width: 331px;
+}
+#all_gd .form-inline .form-group>input{
+    text-align: left;
 }
 
 .all_gd .row .col-xs-12 .search-condition select {
@@ -226,6 +233,10 @@ tbody .btn-mini {
     padding-right: 0 !important;
     margin-top: 9px;
 }
+#gdcl .form-group div {
+
+    margin-top: 9px;
+}
 
 .gdcl .form-group .col-sm-1 {
     width: auto !important;
@@ -255,6 +266,9 @@ tbody .btn-mini {
     width: 64px;
     vertical-align: middle;
     margin-top: 10px;
+}
+#gdcl .form-group .fujian img {
+    margin-top: 0px;
 }
 
 .gdcl .form-group .fujian i {
@@ -690,6 +704,10 @@ tbody .btn-mini {
     background-color: #e4e4e4;
     height: 30px;
     margin: 0 8px 15px 0;
+}
+#all_gd .form-inline .form-group {
+
+    margin: 0 20px 15px 0;
 }
 
 .all_gd .form-inline .form-group>select,
