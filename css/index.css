@@ -226,6 +226,9 @@ tbody .btn-mini {
     /*line-height: 38px;*/
     margin-bottom: 0;
 }
+.gdcl .form-group div {
+  display: inline-block;
+}
 
 .gdcl .form-group.hei_75 {
     height: 60px;
@@ -235,14 +238,14 @@ tbody .btn-mini {
     border-bottom: 1px solid #cdcdcd;
 }
 
-.gdcl .form-group label {
+.gdcl .form-group>label {
     font-weight: normal;
     color: #333;
     vertical-align: middle;
     padding-right: 0 !important;
     margin-top: 9px;
 }
-#gdcl .form-group input{
+#gdcl .form-group input,#gdcl .form-group textarea{
 
     margin-top: 9px;
 }
