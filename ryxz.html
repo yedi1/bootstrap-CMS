@@ -21,9 +21,10 @@
              data-second-catalog="人员管理" data-third-catalog="人员新增" data-title="人员新增">
             <div class="row">
                 <div class="col-xs-12">
-                    <div class="search-condition" style="padding-top: 10px;">
+                    <div class="search-condition" style="padding-top: 10px; padding-bottom: 0">
                         <form role="form" class="form-inline">
-                            <div class="form-group"><label for="company0">人员编号:</label> <input type="text"
+                            <div class="form-group"><label for="company0">人员编号:</label>
+                                <input type="text"
                                                                                                placeholder="xxxxxxx"
                                                                                                disabled="disabled"
                                                                                                id="company0"
@@ -32,35 +33,45 @@
                             <br>
                             <div class="form-group"><label for="company1">姓名:</label> <input type="text"
                                                                                              class="form-control"
-                                                                                             placeholder="公司一"
+                                                                                             placeholder="姓名"
                                                                                              id="company1"></div>
                             <div class="form-group"><label for="company2" id="company2-lable" style="text-align: right">联系方式:</label>
-                                <input type="text" class="form-control" style="width: 112px" placeholder="12445566"
+                                <input type="text" class="form-control" style="width: 112px" placeholder="139****"
                                        id="company2"></div>
                             <div class="form-group" style="margin-left: 116px;"><label for="resource3">电子邮箱:</label>
-                                <input type="text" class="form-control" placeholder="资源组一" id="resource3"></div>
+                                <input type="text" class="form-control" placeholder="请填写电子邮箱" id="resource3"></div>
                             <br>
                             <div class="form-group"><label for="resource4" style="    text-align: right;">联系地址:</label>
-                                <input type="text" class="form-control" placeholder="故障告警" id="resource4"></div>
+                                <input type="text" class="form-control" placeholder="请填写联系地址" id="resource4"></div>
                             <br>
-                            <div class="form-group"><label for="resource5">公司名称:</label> <input type="text"
-                                                                                                class="form-control"
-                                                                                                placeholder="一般告警"
-                                                                                                id="resource5"></div>
+                            <div class="form-group">
+                                <label for="resource5">公司名称:</label>
+                                <select id="resource5" class="form-control">
+                                    <option>全部</option>
+                                </select>
+                            </div>
                             <div class="form-group" style="margin-left: 116px;"><label for="resource6">部门名称:</label>
-                                <input type="text" class="form-control" placeholder="一般告警" id="resource6"></div>
+                                <select id="resource6" class="form-control">
+                                    <option>全部</option>
+                                </select>
+                            </div>
                             <br>
-                            <div class="form-group"><label for="resource7">登录帐号:</label> <input type="text"
-                                                                                                class="form-control"
-                                                                                                placeholder="一般告警"
-                                                                                                id="resource7"></div>
+                            <div class="form-group"><label for="resource7">登录帐号:</label>
+                                <select id="resource7" class="form-control">
+                                <option>全部</option>
+                            </select>
+                            </div>
                             <br>
-                            <div class="form-group"><label for="resource8">部门密码:</label> <input type="text"
-                                                                                                class="form-control"
-                                                                                                placeholder="一般告警"
-                                                                                                id="resource8"></div>
+                            <div class="form-group"><label for="resource8">部门密码:</label>
+                                <select id="resource8" class="form-control">
+                                    <option>全部</option>
+                                </select>
+                            </div>
                             <div class="form-group"><label for="resource9" style="text-align: right;width: 194px">重复输入登录密码:</label>
-                                <input type="text" class="form-control" placeholder="一般告警" id="resource9"></div>
+                                <select id="resource9" class="form-control">
+                                    <option>全部</option>
+                                </select>
+                            </div>
                         </form>
                     </div>
                 </div>

@@ -868,6 +868,9 @@ tbody .btn-mini {
     padding: 4px 8px;
     border-radius: 0;
 }
+.zyxxwh  .form-control{
+    padding: 0;
+}
 
 .gjlb .form-inline .form-group {
     background-color: #e4e4e4;
@@ -1071,6 +1074,9 @@ em {
 #gj_add {
     padding-top: 60px !important;
 }
+#gj_add select{
+    height: 30px;
+}
 
 #gj_add .search-condition {
     margin-top: 0;
@@ -1264,6 +1270,7 @@ em {
 
 .ryxz .search-condition .form-inline .form-group {
     background-color: white;
+    margin-bottom: 15px;
 }
 
 .ryxz .search-condition .form-group>label {
@@ -1271,8 +1278,12 @@ em {
     /*text-align: right;*/
 }
 
-.ryxz .search-condition .form-group>input {
-    width: 310px;
+.ryxz .search-condition .form-group>select,.ryxz .search-condition .form-group>input {
+    width: 310px;height: 30px;padding: 0;text-align: left;
+}
+.ryxz .search-condition .form-group>select{
+    margin-left: 4px;
+
 }
 
 .ryxz #company2,
@@ -1292,7 +1303,7 @@ em {
 .ryxz .ryxz-content {
     height: 183px;
     background-color: #FFFFFF;
-    padding: 30px;
+    padding: 25px;
     position: relative;
 }
 

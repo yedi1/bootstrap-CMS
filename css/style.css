@@ -1186,8 +1186,11 @@ label {
     margin-right: 23px;
     margin-bottom: 30px;
 }
-.fwqzylb-list>div{
+.fwqzylb-list .fwqzylb-list>div{
     margin-right: 31px;
+}
+#fwqzylb-list>div{
+    margin-right: 23px;
 }
 .fwqzylb-list>div:last-child{
     margin-right: 0;
