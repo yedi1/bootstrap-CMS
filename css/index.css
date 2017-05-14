@@ -502,15 +502,39 @@ tbody .btn-mini {
 }
 
 #fwqpzxx .fwqzylb-item {
-    width: 302px;
-    height: 267px;
+    width: 298px;
+    height: 220px;
+}
+#fwqpzxx .unstyled li {
+    margin:4px 0;
+}
+#fwqzylb .fwqzylb-item {
+    width: 298px;
+    height: 211px;
+}
+#fwqzylb .unstyled li {
+    margin:4px 0;
 }
 #fwqpzxx input{
     text-align: left;
 }
-
+#fwqpzxx .fwqzylb-item .item-container {
+    padding: 5px 9px 0 9px;
+}
+#fwqpzxx .fwqzylb-list>div{
+    margin-right: 37px;
+}
+#fwqzylb .fwqzylb-item .item-container {
+    padding: 5px 9px 0 9px;
+}
+#fwqzylb .fwqzylb-list>div{
+    margin-right: 41px;
+}
 #fwqpzxx .server {
     right: 23px;
+}
+#fwqpzxx .pt10 {
+    padding-top: 2px;
 }
 
 .unstyled .mt0 {
@@ -1697,4 +1721,27 @@ em {
 }
 .pad0 .panel-title{
     text-align: center;
+}
+
+#zyxxwh .form-inline .form-group>select {
+    width: 127px;
+}
+#Proxy .proxy_btn{
+    margin-bottom: 0;
+}
+#Proxy .proxy_btn li img{
+     margin-bottom: 4px;
+}
+#Proxy .switch1{
+    padding-right: 21px;
+    padding-left: 21px;
+
+}
+.modal .btn-primary{
+    background: #27a088;
+
+}
+.modal .btn{
+    width: 98px;
+    height: 35px;
 }

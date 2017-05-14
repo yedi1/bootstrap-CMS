@@ -61,6 +61,13 @@ $(function() {
         $('.dropdown-menu li').click(function() {//下拉菜单
             $(this).parents('.btn-group').find('button:first').html($(this).text());
         });
+    // deleteBtn
+    var $m_btn = $('.btn:contains(删除)');//$("p:contains(is)")
+    var $modal = $('.modal');
+    $m_btn.on('click', function(){
+        $modal.modal({backdrop: 'static'});
+    });
+
 
 //                        callback && callback();
 //                    },
