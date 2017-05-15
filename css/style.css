@@ -951,7 +951,7 @@ label {
     width: 40px;
     height: 40px;
     bottom: 21px;
-    right: 34px;
+    right: 3px;
     background: url(../img/add_js.png) no-repeat;
     background-size: contain;
 }
@@ -1300,7 +1300,7 @@ label {
 }
 
 .fwqzylb-item .item-footer {
-    margin: 3px 0 0 12px;
+    margin: 3px 0 0 5px;
 }
 
 .fwqzylb-item .server {

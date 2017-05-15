@@ -387,7 +387,10 @@ tbody .btn-mini {
 }
 
 .qsfxcx .form-group .datepicker-here {
-    width: 140px;
+    width: 121px;
+}
+.qsfxcx .form-inline .form-group>select{
+    width: 119px;
 }
 
 .form-inline .w292 {
@@ -517,6 +520,7 @@ tbody .btn-mini {
 }
 #fwqpzxx input{
     text-align: left;
+    margin-left: -10px;
 }
 #fwqpzxx .fwqzylb-item .item-container {
     padding: 5px 9px 0 9px;
