@@ -1390,14 +1390,18 @@ em {
 }
 
 #zyjk .two_order li .items {
-    width: 138px;
-    height: 143px;
+    width: 166px;
+    height: 165px;
     background: url(../img/cjzbpz/text2.png) no-repeat;
     background-size: 100% 100%;
-    padding: 12px 28px 0;
     margin-bottom: 10px;
+    text-align: center;
+    padding: 0;
+    padding-top: 18px;
 }
-
+#zyjk .two_order li .items p{
+width: 100px;margin-left: 30px;
+}
 #tjbb .hover>div:hover {
     background: #2aabd2;
 }
