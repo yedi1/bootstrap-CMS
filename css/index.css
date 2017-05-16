@@ -1115,7 +1115,7 @@ em {
     padding-top: 60px !important;
 }
 #gj_add select{
-    height: 30px;
+    height: 30px;padding: 0;
 }
 
 #gj_add .search-condition {
@@ -1723,7 +1723,14 @@ width: 100px;margin-left: 30px;
 #zyywfp .table>tbody>tr>td{
     padding: 0;
 }
-
+#zyywfp .modal .btn{
+    width: 103px;
+    height: 30px;
+    line-height: 16px;
+}
+#zyywfp .btn-default:focus, #zyywfp .btn-default:hover{
+    background: #27a088;
+}
 .gjlb .form-group input{
     text-align: left;
 }

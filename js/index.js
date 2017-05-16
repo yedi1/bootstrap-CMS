@@ -38,10 +38,13 @@ $(function() {
         $('.actionlist .btn').click(function() {//按钮颜色
             $(this).toggleClass('btnactive')
         });
+        $('#zyywfp .modal').on('click','.btn-default',function () {
+            $(this).toggleClass('btnactive')
+        })
         $('.ximg').click(function() {//删除按钮
             $(this).parents('.main_content7_elem').remove()
         });
-        $('#gj_add .item_sel img').click(function() {//删除按钮
+        $('#gj_add .item_sel li img').click(function() {//删除按钮
             $(this).parent().remove()
         });
         $('.fujian i').click(function() {//删除按钮
