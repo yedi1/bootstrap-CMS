@@ -1052,6 +1052,12 @@ label {
 .ml6>span {
     margin-left: 6px;
 }
+#zyywpz .ml6>span {
+    margin-left:0;
+}
+#zyywpz .table>tbody>tr>td{
+  padding: 0
+}
 
 .index6 .con {
     border: 1px solid #ddd;
