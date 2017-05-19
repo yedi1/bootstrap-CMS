@@ -59,8 +59,12 @@ textarea {
 #switch .item-footer img{
     cursor: pointer;
 }
-#switch li img:hover,#switch .item-footer img:hover{
+#switch li img:hover{
    width: 36px;
+    height:38px;
+}
+#switch .item-footer img:hover{
+   width: 35px;
     height:38px;
 }
 
@@ -103,8 +107,11 @@ tbody .btn-mini {
     background: #eee;
     border-radius: 2px;
     text-align: center;
-    line-height: 22px;
+    line-height: 19px;
     padding: 0;
+}
+.gjlb tbody .btn-mini{
+    width: 55px;
 }
 
 .newbtn,
@@ -164,6 +171,7 @@ tbody .btn-mini {
 
 .all_gd .btn-mini {
     width: 38px;
+    line-height: 18px;
 }
 
 .wid_82 {
@@ -246,8 +254,8 @@ tbody .btn-mini {
     margin-top: 9px;
 }
 #gdcl .form-group input,#gdcl .form-group textarea{
-
     margin-top: 9px;
+    min-width: 210px;
 }
 
 .gdcl .form-group .col-sm-1 {
@@ -543,6 +551,11 @@ tbody .btn-mini {
 
 .unstyled .mt0 {
     margin-top: 0;
+}
+
+#fwqzylb .item-footer{
+    height: 39px;
+    line-height: 36px;
 }
 
 .pt10 {
@@ -910,6 +923,10 @@ tbody .btn-mini {
 .zyxxwh  .form-control{
     padding: 0;
 }
+#zyxxwh td select{
+    margin: 0 auto;
+    width: 220px;
+}
 
 .gjlb .form-inline .form-group {
     background-color: #e4e4e4;
@@ -1019,12 +1036,29 @@ em {
 }
 
 .res_pz .two_order li .items p i:nth-child(2) {
-    text-align: left;
+    width: 33px;
+    text-align: center;
+
 }
 
 .res_pz .two_order li .items p i:first-child {
-    width: 40px;
+    width: 25px;
     text-align: left;
+}
+#zyjk .two_order li .items p i:first-child {
+    width: 23px;
+    text-align: left;
+}
+#zyjk  .two_order li .items p i:nth-child(2) {
+    width:48px;
+    text-align: center;
+
+}
+#zyjk{
+    font-size: 14px;
+}
+#zyjk span{
+    font-size: 16px;
 }
 
 .res_pz .two_order li.two_child .pic {
@@ -1400,7 +1434,8 @@ em {
     padding-top: 18px;
 }
 #zyjk .two_order li .items p{
-width: 100px;margin-left: 30px;
+    width: 95px;
+    margin-left: 35px;
 }
 #tjbb .hover>div:hover {
     background: #2aabd2;
@@ -1717,6 +1752,10 @@ width: 100px;margin-left: 30px;
 #zyywpz .btn-default{
     color: #666;
 }
+#zyywpz td .btn-default{
+    background: #eee;
+    border-radius: 2px;
+}
 #tdxz .form-inline .form-group>label{
     text-align: right;
 }
@@ -1739,7 +1778,7 @@ width: 100px;margin-left: 30px;
 }
 
 #zyxxwh .form-inline .form-group>select {
-    width: 127px;
+    width: 129px;
 }
 #Proxy .proxy_btn{
     margin-bottom: 0;
@@ -1786,4 +1825,14 @@ pad0 ::-webkit-scrollbar-thumb
 }
 #zyywfp{
     margin-bottom: 30px;
+}
+.form-group input,.form-group select{
+     color: #999;
+ }
+
+.form-inline .form-group>input{
+    text-align: left;
+}
+.gjgzxq .form-inline .form-group>input{
+    text-align: center;
 }

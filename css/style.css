@@ -116,13 +116,18 @@ header .headright span:last-child{
     background-color: #ffffff;
     text-align: left;
     font-size: 12px;
+    color: #999;
 }
-
+.search-condition .form-group input,.search-condition .form-group select{
+    color: #999;
+}
 .datepicker-here {
     background: url("../img/rili.png") no-repeat;
     background-size: contain;
     background-position: right;
     background-color: #ffffff;
+    color: #999;
+    font-size: 12px;
 }
 
 .search-condition select>option:hover {
