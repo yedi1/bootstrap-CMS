@@ -575,7 +575,7 @@ tbody .btn-mini {
 }
 
 .qsfxcx>.col-xs-2 {
-    height: 100%;
+    height: calc(100% - 84px);
     width: 187px;
     position: absolute;
     left: 159px;
@@ -1451,7 +1451,13 @@ em {
 #tjbb .hover>div:hover {
     background: #2aabd2;
 }
-
+#tjbb .pa20{
+    padding: 25px 35px;
+    position: absolute;
+    overflow: overlay;
+    width: calc(100% - 187px - 158px);
+    height: calc(100% - 83px)
+}
 .fwqzyxg .search-condition {
     margin-top: 15px;
     margin-bottom: 30px;

@@ -80,9 +80,13 @@ $(function() {
         //xnzb
         $('.guize span').click(function () {
             if($(this).text()==='性能指标告警规则'){
-                $('.xnzb').show();
+                if($('.xnzb').length>0){
+                    $('.xnzb').removeClass('xnzb')
+                }else{
+                    $('.biaoge ').addClass('xnzb')
+                }
             }else{
-                $('.xnzb').hide();
+                $('.biaoge ').addClass('xnzb')
             }
 
         })
