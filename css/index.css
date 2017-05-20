@@ -1157,6 +1157,10 @@ em {
     padding: 0 30px;
     padding-top: 20px;
 }
+#gj_add .chk_1+label{
+    vertical-align: sub;
+    margin-right: 7px;
+}
 
 #gj_add .search-condition .item_sel {
     background: #e4e4e4;
@@ -1237,7 +1241,7 @@ em {
 }
 
 #gj_add .search-condition .biaoge {
-    margin-bottom: 40px;
+    /*margin-bottom: 40px;*/
 }
 
 #gj_add .search-condition .biaoge.pt18pb20 {
@@ -1844,5 +1848,8 @@ pad0 ::-webkit-scrollbar-thumb
     text-align: center;
 }
 #gj_add .form-group .xnzb{
+    display: none;
+}
+.xnzb{
     display: none;
 }
