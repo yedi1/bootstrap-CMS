@@ -38,6 +38,11 @@ $(function() {
         $('.actionlist .btn').click(function() {//按钮颜色
             $(this).toggleClass('btnactive')
         });
+        //互斥
+        $('#gdcl .actionlist .btn').off().on('click',function() {
+            $(this).parent().find('.btn').removeClass('btnactive');
+            $(this).addClass('btnactive')
+        });
         $('#zyywfp .modal').on('click','.btn-default',function () {
             $(this).toggleClass('btnactive')
         })
@@ -64,6 +69,24 @@ $(function() {
         $('.dropdown-menu li').click(function() {//下拉菜单
             $(this).parents('.btn-group').find('button:first').html($(this).text());
         });
+
+        //tooltip
+        $('.index6 .fuwuqi_list .btn').tooltip({
+            container:'body',
+            title:function () {
+                 return $(this).text()
+            }
+        });
+        //xnzb
+        $('.guize span').click(function () {
+            if($(this).text()==='性能指标告警规则'){
+                $('.xnzb').show();
+            }else{
+                $('.xnzb').hide();
+            }
+
+        })
+
     // deleteBtn
     var $m_btn = $('.btn:contains(删除)');//$("p:contains(is)")
     var $modal = $('.modal');

@@ -880,6 +880,9 @@ label {
     padding: 0;
     background: #e4e4e4;
 }
+.index6 .fuwuqi_list div{
+    overflow: hidden;
+}
 
 .fuwuqis {
     overflow: hidden;
@@ -1122,6 +1125,9 @@ label {
     width: 15px;
     height: 15px;
     min-height: 15px;
+}
+#cjzbpzxg .chk_1+label{
+    vertical-align: sub;
 }
 
 .chk_1+label:active {

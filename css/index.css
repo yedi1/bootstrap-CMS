@@ -1219,6 +1219,7 @@ em {
     background: #e4e4e4;
     color: #666;
     padding: 30px 32px;
+    cursor: pointer;
 }
 
 #gj_add .search-condition .guize span {
@@ -1329,6 +1330,12 @@ em {
     background: #fff;
     vertical-align: middle;
     margin-right: 8px;
+}
+.checks1{
+    display: inline-block;
+}
+.checks1 label{
+    margin: 0;
 }
 
 .checks.active {
@@ -1835,4 +1842,7 @@ pad0 ::-webkit-scrollbar-thumb
 }
 .gjgzxq .form-inline .form-group>input{
     text-align: center;
+}
+#gj_add .form-group .xnzb{
+    display: none;
 }
