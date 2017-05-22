@@ -55,17 +55,15 @@ $(function() {
         $('.fujian i').click(function() {//删除按钮
             $(this).parents('.fujian').remove()
         });
-        $('#switch li img,#switch .item-footer img').click(function() {//proxy开关
-            // alert($(this).parents('.switch1').index());
-            $('.modal button:first-child').attr('data-switch',$(this).parents('.switch1').index());
+        $('#switch li img[title="开关"]').click(function() {//proxy开关
+          if ($(this).attr('src').indexOf('fwqzylb1')>0) {
+             $(this).attr('src', 'img/cjzbpz/fwqzylb2.png');
+          } else {
+            $(this).attr('src', 'img/cjzbpz/fwqzylb1.png');
+          }
+
         });
-        var ron=0;
-        $('.modal button:first-child').off().on('click',function () {
-            ron++;
-            var n=$(this).attr('data-switch');
-            $('#switch>div').eq(n).find('img:last').css({'transform': 'rotateY('+180*ron+'deg)'});
-        });
-//
+
         $('.dropdown-menu li').click(function() {//下拉菜单
             $(this).parents('.btn-group').find('button:first').html($(this).text());
         });
