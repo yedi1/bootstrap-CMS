@@ -55,7 +55,7 @@ $(function() {
         $('.fujian i').click(function() {//删除按钮
             $(this).parents('.fujian').remove()
         });
-        $('#switch li img[title="开关"],#switch .item-footer img').click(function() {//proxy开关
+        $('#switch li img[title="开关"],#switch .item-footer img[title="开关"]').click(function() {//proxy开关
           if ($(this).attr('src').indexOf('fwqzylb1')>0) {
              $(this).attr('src', 'img/cjzbpz/fwqzylb2.png');
           } else {
